@@ -1,0 +1,1443 @@
+2026-02-03 14:55:16,242 - root - INFO - Логирование настроено успешно
+2026-02-03 14:55:16,243 - src.utils.config_loader - INFO - Поиск config.txt по пути: c:\Users\grish\ozon-parser\config.txt
+2026-02-03 14:55:16,750 - aiogram.dispatcher - INFO - Start polling
+2026-02-03 14:55:16,942 - aiogram.dispatcher - INFO - Run polling for bot @ParserOzon1Bot id=8237779338 - 'Ozon Parser'
+2026-02-03 14:55:17,206 - aiogram.event - INFO - Update id=355303303 is handled. Duration 204 ms by bot id=8237779338
+2026-02-03 14:55:23,121 - aiogram.event - INFO - Update id=355303304 is handled. Duration 89 ms by bot id=8237779338
+2026-02-03 14:55:24,373 - aiogram.event - INFO - Update id=355303305 is handled. Duration 112 ms by bot id=8237779338
+2026-02-03 14:56:09,668 - src.utils.config_loader - INFO - Поиск config.txt по пути: c:\Users\grish\ozon-parser\config.txt
+2026-02-03 14:56:09,793 - aiogram.event - INFO - Update id=355303306 is handled. Duration 125 ms by bot id=8237779338
+2026-02-03 14:56:13,414 - src.utils.config_loader - INFO - Поиск config.txt по пути: c:\Users\grish\ozon-parser\config.txt
+2026-02-03 14:56:13,591 - src.utils.config_loader - INFO - Поиск config.txt по пути: c:\Users\grish\ozon-parser\config.txt
+2026-02-03 14:56:13,592 - aiogram.event - INFO - Update id=355303307 is handled. Duration 179 ms by bot id=8237779338
+2026-02-03 14:56:13,593 - src.utils.resource_manager - INFO - Создана новая сессия пользователя 1134933168: этап full_parsing, 0 элементов
+2026-02-03 14:56:13,593 - src.utils.resource_manager - INFO - Справедливое распределение воркеров для 1 пользователей:
+2026-02-03 14:56:13,594 - src.utils.resource_manager - INFO -   Пользователь 1134933168: 5 воркеров (full_parsing)
+2026-02-03 14:56:13,594 - src.utils.resource_manager - INFO - Пользователь 1134933168 получил 5 воркеров для этапа full_parsing (активных пользователей: 1)
+2026-02-03 14:56:13,595 - src.utils.resource_manager - INFO - Обновлена сессия пользователя 1134933168: этап links, 500 элементов
+2026-02-03 14:56:13,595 - src.utils.resource_manager - INFO - Справедливое распределение воркеров для 1 пользователей:
+2026-02-03 14:56:13,596 - src.utils.resource_manager - INFO -   Пользователь 1134933168: 5 воркеров (links)
+2026-02-03 14:56:13,596 - src.utils.resource_manager - INFO - Пользователь 1134933168 получил 5 воркеров для этапа links (активных пользователей: 1)
+2026-02-03 14:56:15,822 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 14:56:15,823 - src.parsers.link_parser - INFO - Попытка загрузки страницы с драйвером #1/3
+2026-02-03 14:56:16,152 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 14:56:18,056 - src.parsers.link_parser - INFO - ✓ Страница успешно загружена с драйвером #1
+2026-02-03 14:56:20,811 - src.parsers.link_parser - INFO - Скролл 1: +8, всего 8/500
+2026-02-03 14:56:30,357 - src.parsers.link_parser - INFO - Скролл 2: +28, всего 36/500
+2026-02-03 14:56:40,121 - src.parsers.link_parser - INFO - Скролл 3: +12, всего 48/500
+2026-02-03 14:56:49,861 - src.parsers.link_parser - INFO - Скролл 4: +12, всего 60/500
+2026-02-03 14:56:59,693 - src.parsers.link_parser - INFO - Скролл 5: +12, всего 72/500
+2026-02-03 14:57:09,932 - src.parsers.link_parser - INFO - Скролл 6: +12, всего 84/500
+2026-02-03 14:57:19,842 - src.parsers.link_parser - INFO - Скролл 7: +12, всего 96/500
+2026-02-03 14:57:29,816 - src.parsers.link_parser - INFO - Скролл 8: +12, всего 108/500
+2026-02-03 14:57:39,524 - src.parsers.link_parser - INFO - Скролл 9: +12, всего 120/500
+2026-02-03 14:57:49,276 - src.parsers.link_parser - INFO - Скролл 10: +12, всего 132/500
+2026-02-03 14:57:59,761 - src.parsers.link_parser - INFO - Скролл 11: +12, всего 144/500
+2026-02-03 14:58:09,697 - src.parsers.link_parser - INFO - Скролл 12: +12, всего 156/500
+2026-02-03 14:58:19,570 - src.parsers.link_parser - INFO - Скролл 13: +12, всего 168/500
+2026-02-03 14:58:29,390 - src.parsers.link_parser - INFO - Скролл 14: +12, всего 180/500
+2026-02-03 14:58:39,195 - src.parsers.link_parser - INFO - Скролл 15: +12, всего 192/500
+2026-02-03 14:58:49,265 - src.parsers.link_parser - INFO - Скролл 16: +12, всего 204/500
+2026-02-03 14:59:00,175 - src.parsers.link_parser - INFO - Скролл 17: +12, всего 216/500
+2026-02-03 14:59:10,085 - src.parsers.link_parser - INFO - Скролл 18: +12, всего 228/500
+2026-02-03 14:59:19,839 - src.parsers.link_parser - INFO - Скролл 19: +12, всего 240/500
+2026-02-03 14:59:29,847 - src.parsers.link_parser - INFO - Скролл 20: +12, всего 252/500
+2026-02-03 14:59:39,670 - src.parsers.link_parser - INFO - Скролл 21: +12, всего 264/500
+2026-02-03 14:59:49,385 - src.parsers.link_parser - INFO - Скролл 22: +12, всего 276/500
+2026-02-03 14:59:59,488 - src.parsers.link_parser - INFO - Скролл 23: +12, всего 288/500
+2026-02-03 15:00:09,340 - src.parsers.link_parser - INFO - Скролл 24: +12, всего 300/500
+2026-02-03 15:00:18,928 - src.parsers.link_parser - INFO - Скролл 25: +12, всего 312/500
+2026-02-03 15:00:28,584 - src.parsers.link_parser - INFO - Скролл 26: +12, всего 324/500
+2026-02-03 15:00:38,394 - src.parsers.link_parser - INFO - Скролл 27: +12, всего 336/500
+2026-02-03 15:00:48,195 - src.parsers.link_parser - INFO - Скролл 28: +12, всего 348/500
+2026-02-03 15:00:57,897 - src.parsers.link_parser - INFO - Скролл 29: +12, всего 360/500
+2026-02-03 15:01:07,650 - src.parsers.link_parser - INFO - Скролл 30: +12, всего 372/500
+2026-02-03 15:01:17,477 - src.parsers.link_parser - INFO - Скролл 31: +12, всего 384/500
+2026-02-03 15:01:27,187 - src.parsers.link_parser - INFO - Скролл 32: +12, всего 396/500
+2026-02-03 15:01:36,884 - src.parsers.link_parser - INFO - Скролл 33: +12, всего 408/500
+2026-02-03 15:01:46,568 - src.parsers.link_parser - INFO - Скролл 34: +12, всего 420/500
+2026-02-03 15:01:57,000 - src.parsers.link_parser - INFO - Скролл 35: +12, всего 432/500
+2026-02-03 15:02:08,410 - src.parsers.link_parser - INFO - Скролл 36: +12, всего 444/500
+2026-02-03 15:02:18,400 - src.parsers.link_parser - INFO - Скролл 37: +12, всего 456/500
+2026-02-03 15:02:28,271 - src.parsers.link_parser - INFO - Скролл 38: +12, всего 468/500
+2026-02-03 15:02:38,153 - src.parsers.link_parser - INFO - Скролл 39: +12, всего 480/500
+2026-02-03 15:02:48,494 - src.parsers.link_parser - INFO - Скролл 40: +12, всего 492/500
+2026-02-03 15:03:05,031 - src.parsers.link_parser - INFO - Скролл 41: +8, всего 500/500
+2026-02-03 15:03:05,043 - src.parsers.link_parser - INFO - Собрано 500 ссылок для пользователя 1134933168
+2026-02-03 15:03:07,854 - src.utils.resource_manager - INFO - Завершена сессия пользователя 1134933168
+2026-02-03 15:03:07,856 - src.parsers.product_parser - INFO - Парсер товаров инициализирован с макс 10 воркерами для пользователя 1134933168
+2026-02-03 15:03:07,859 - src.utils.resource_manager - INFO - Создана новая сессия пользователя 1134933168: этап products, 500 элементов
+2026-02-03 15:03:07,859 - src.utils.resource_manager - INFO - Справедливое распределение воркеров для 1 пользователей:
+2026-02-03 15:03:07,860 - src.utils.resource_manager - INFO -   Пользователь 1134933168: 5 воркеров (products)
+2026-02-03 15:03:07,860 - src.utils.resource_manager - INFO - Пользователь 1134933168 получил 5 воркеров для этапа products (активных пользователей: 1)
+2026-02-03 15:03:07,862 - src.parsers.product_parser - INFO - Начало парсинга 500 товаров с 5 воркерами для пользователя 1134933168
+2026-02-03 15:03:07,863 - src.parsers.product_parser - INFO - Воркер 1: 100 товаров
+2026-02-03 15:03:07,864 - src.parsers.product_parser - INFO - Воркер 2: 100 товаров
+2026-02-03 15:03:07,864 - src.parsers.product_parser - INFO - Воркер 3: 100 товаров
+2026-02-03 15:03:07,864 - src.parsers.product_parser - INFO - Воркер 4: 100 товаров
+2026-02-03 15:03:07,864 - src.parsers.product_parser - INFO - Воркер 5: 100 товаров
+2026-02-03 15:03:07,868 - src.parsers.product_parser - INFO - Воркер 1 инициализирован
+2026-02-03 15:03:07,868 - src.parsers.product_parser - INFO - Воркер 2 инициализирован
+2026-02-03 15:03:07,870 - src.parsers.product_parser - INFO - Воркер 3 инициализирован
+2026-02-03 15:03:07,871 - src.parsers.product_parser - INFO - Воркер 4 инициализирован
+2026-02-03 15:03:07,874 - src.parsers.product_parser - INFO - Воркер 5 инициализирован
+2026-02-03 15:03:11,732 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 15:03:11,732 - src.parsers.product_parser - INFO - Воркер 3 готов к работе
+2026-02-03 15:03:11,922 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 15:03:11,922 - src.parsers.product_parser - INFO - Воркер 2 готов к работе
+2026-02-03 15:03:12,103 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 15:03:12,103 - src.parsers.product_parser - INFO - Воркер 1 готов к работе
+2026-02-03 15:03:12,121 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:12,154 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 15:03:12,155 - src.parsers.product_parser - INFO - Воркер 5 готов к работе
+2026-02-03 15:03:12,205 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 15:03:12,205 - src.parsers.product_parser - INFO - Воркер 4 готов к работе
+2026-02-03 15:03:12,800 - src.utils.selenium_manager - INFO - Обнаружена блокировка, перезагрузка страницы (попытка 1/3)
+2026-02-03 15:03:13,168 - src.utils.selenium_manager - INFO - Обнаружена блокировка, перезагрузка страницы (попытка 1/3)
+2026-02-03 15:03:13,219 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:15,637 - src.parsers.product_parser - INFO - Воркер 3: Товар 1318977406 обработан успешно
+2026-02-03 15:03:16,178 - src.parsers.product_parser - INFO - Воркер 4: Товар 1818321688 обработан успешно
+2026-02-03 15:03:16,184 - src.utils.selenium_manager - INFO - Обнаружена блокировка, перезагрузка страницы (попытка 1/3)
+2026-02-03 15:03:17,429 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:17,498 - src.parsers.product_parser - INFO - Воркер 3: Товар 1390805104 обработан успешно
+2026-02-03 15:03:17,999 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:18,102 - src.parsers.product_parser - INFO - Воркер 4: Товар 2819655890 обработан успешно
+2026-02-03 15:03:19,250 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:19,315 - src.parsers.product_parser - INFO - Воркер 3: Товар 2819656204 обработан успешно
+2026-02-03 15:03:19,869 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:19,914 - src.parsers.product_parser - INFO - Воркер 4: Товар 343002758 обработан успешно
+2026-02-03 15:03:21,124 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:21,191 - src.parsers.product_parser - INFO - Воркер 3: Товар 2945859001 обработан успешно
+2026-02-03 15:03:21,693 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:21,731 - src.parsers.product_parser - INFO - Воркер 4: Товар 3006373750 обработан успешно
+2026-02-03 15:03:22,990 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:23,068 - src.parsers.product_parser - INFO - Воркер 3: Товар 1655402868 обработан успешно
+2026-02-03 15:03:23,586 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:23,652 - src.parsers.product_parser - INFO - Воркер 4: Товар 2894160005 обработан успешно
+2026-02-03 15:03:25,056 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:25,166 - src.parsers.product_parser - INFO - Воркер 3: Товар 1565143293 обработан успешно
+2026-02-03 15:03:25,626 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:25,840 - src.parsers.product_parser - INFO - Воркер 4: Товар 617824888 обработан успешно
+2026-02-03 15:03:26,959 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:27,061 - src.parsers.product_parser - INFO - Воркер 3: Товар 149567820 обработан успешно
+2026-02-03 15:03:27,663 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:27,850 - src.parsers.product_parser - INFO - Воркер 4: Товар 1775772255 обработан успешно
+2026-02-03 15:03:28,094 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:28,235 - src.parsers.product_parser - INFO - Воркер 1: Товар 617825303 обработан успешно
+2026-02-03 15:03:28,710 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:29,190 - src.parsers.product_parser - INFO - Воркер 5: Товар 1596869561 обработан успешно
+2026-02-03 15:03:29,258 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:29,419 - src.parsers.product_parser - INFO - Воркер 3: Товар 3241833392 обработан успешно
+2026-02-03 15:03:29,732 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:29,831 - src.parsers.product_parser - INFO - Воркер 4: Товар 855976779 обработан успешно
+2026-02-03 15:03:30,081 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:30,158 - src.parsers.product_parser - INFO - Воркер 1: Товар 1565147323 обработан успешно
+2026-02-03 15:03:31,055 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:31,144 - src.parsers.product_parser - INFO - Воркер 5: Товар 267911248 обработан успешно
+2026-02-03 15:03:31,305 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:31,344 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:31,395 - src.parsers.product_parser - INFO - Воркер 3: Товар 1059462051 обработан успешно
+2026-02-03 15:03:31,471 - src.parsers.product_parser - INFO - Воркер 2: Товар 3167868989 обработан успешно
+2026-02-03 15:03:31,702 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:31,816 - src.parsers.product_parser - INFO - Воркер 4: Товар 1741418413 обработан успешно
+2026-02-03 15:03:31,936 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:31,998 - src.parsers.product_parser - INFO - Воркер 1: Товар 267567562 обработан успешно
+2026-02-03 15:03:33,161 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:33,306 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:33,426 - src.parsers.product_parser - INFO - Воркер 5: Товар 2393562851 обработан успешно
+2026-02-03 15:03:33,449 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:33,512 - src.parsers.product_parser - INFO - Воркер 3: Товар 912930330 обработан успешно
+2026-02-03 15:03:33,647 - src.parsers.product_parser - INFO - Воркер 2: Товар 1565140404 обработан успешно
+2026-02-03 15:03:33,771 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:33,835 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:33,862 - src.parsers.product_parser - INFO - Воркер 4: Товар 1692735112 обработан успешно
+2026-02-03 15:03:33,926 - src.parsers.product_parser - INFO - Воркер 1: Товар 1724318680 обработан успешно
+2026-02-03 15:03:35,897 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:35,907 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:36,001 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:36,174 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 3089781902
+2026-02-03 15:03:36,179 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:36,230 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:36,293 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 3052234993
+2026-02-03 15:03:36,313 - src.parsers.product_parser - INFO - Воркер 5: Товар 2082181166 обработан успешно
+2026-02-03 15:03:36,329 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1318997921
+2026-02-03 15:03:36,361 - src.parsers.product_parser - INFO - Воркер 4: Товар 1221521312 обработан успешно
+2026-02-03 15:03:38,143 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:38,157 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:38,257 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 2706219830
+2026-02-03 15:03:38,282 - src.parsers.product_parser - INFO - Воркер 5: Товар 1574002870 обработан успешно
+2026-02-03 15:03:40,141 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:40,205 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1854649220
+2026-02-03 15:03:41,415 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:41,471 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 3089781902
+2026-02-03 15:03:41,551 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:41,582 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:41,594 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1318997921
+2026-02-03 15:03:41,627 - src.parsers.product_parser - INFO - Воркер 2: Товар 3052234993 обработан успешно
+2026-02-03 15:03:43,495 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:43,505 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:43,541 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 2706219830
+2026-02-03 15:03:43,553 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 2819656095
+2026-02-03 15:03:45,403 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:45,481 - src.parsers.product_parser - INFO - Воркер 5: Товар 1854649220 обработан успешно
+2026-02-03 15:03:46,627 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:46,661 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 3089781902
+2026-02-03 15:03:46,664 - src.parsers.product_parser - WARNING - Воркер 3: Ошибка товара 3089781902: Не найдена основная информация о товаре
+2026-02-03 15:03:46,773 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:46,810 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1318997921
+2026-02-03 15:03:46,811 - src.parsers.product_parser - WARNING - Воркер 1: Ошибка товара 1318997921: Не найдена основная информация о товаре
+2026-02-03 15:03:47,149 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:47,186 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 308062428
+2026-02-03 15:03:48,397 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:48,447 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 2929464188
+2026-02-03 15:03:48,480 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:48,516 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 308432858
+2026-02-03 15:03:48,749 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:48,791 - src.parsers.product_parser - INFO - Воркер 2: Товар 2819656095 обработан успешно
+2026-02-03 15:03:48,823 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:48,866 - src.parsers.product_parser - INFO - Воркер 4: Товар 2706219830 обработан успешно
+2026-02-03 15:03:50,548 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:50,603 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:50,636 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 617849570
+2026-02-03 15:03:50,676 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1070623485
+2026-02-03 15:03:52,394 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:52,432 - src.parsers.product_parser - INFO - Воркер 5: Товар 308062428 обработан успешно
+2026-02-03 15:03:53,742 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:53,775 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:53,790 - src.parsers.product_parser - INFO - Воркер 1: Товар 308432858 обработан успешно
+2026-02-03 15:03:53,822 - src.parsers.product_parser - INFO - Воркер 3: Товар 2929464188 обработан успешно
+2026-02-03 15:03:54,200 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:54,237 - src.parsers.product_parser - INFO - Воркер 5: Товар 1775087973 обработан успешно
+2026-02-03 15:03:55,546 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:55,552 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:55,619 - src.parsers.product_parser - INFO - Воркер 3: Товар 289406193 обработан успешно
+2026-02-03 15:03:55,632 - src.parsers.product_parser - INFO - Воркер 1: Товар 1574004005 обработан успешно
+2026-02-03 15:03:55,920 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:55,932 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:56,039 - src.parsers.product_parser - INFO - Воркер 4: Товар 1070623485 обработан успешно
+2026-02-03 15:03:56,045 - src.parsers.product_parser - INFO - Воркер 2: Товар 617849570 обработан успешно
+2026-02-03 15:03:56,056 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:56,105 - src.parsers.product_parser - INFO - Воркер 5: Товар 869031659 обработан успешно
+2026-02-03 15:03:57,337 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:57,412 - src.parsers.product_parser - INFO - Воркер 1: Товар 964361815 обработан успешно
+2026-02-03 15:03:57,417 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:57,461 - src.parsers.product_parser - INFO - Воркер 3: Товар 619810888 обработан успешно
+2026-02-03 15:03:57,779 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:57,798 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:57,834 - src.parsers.product_parser - INFO - Воркер 4: Товар 493743484 обработан успешно
+2026-02-03 15:03:57,848 - src.parsers.product_parser - INFO - Воркер 2: Товар 1754747586 обработан успешно
+2026-02-03 15:03:57,956 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:57,997 - src.parsers.product_parser - INFO - Воркер 5: Товар 3329219127 обработан успешно
+2026-02-03 15:03:59,125 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:59,172 - src.parsers.product_parser - INFO - Воркер 1: Товар 3370971389 обработан успешно
+2026-02-03 15:03:59,181 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:59,221 - src.parsers.product_parser - INFO - Воркер 3: Товар 3370785682 обработан успешно
+2026-02-03 15:03:59,534 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:59,586 - src.parsers.product_parser - INFO - Воркер 4: Товар 267906082 обработан успешно
+2026-02-03 15:03:59,593 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:59,643 - src.parsers.product_parser - INFO - Воркер 2: Товар 3044322556 обработан успешно
+2026-02-03 15:03:59,721 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:03:59,760 - src.parsers.product_parser - INFO - Воркер 5: Товар 1699585042 обработан успешно
+2026-02-03 15:04:00,941 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:01,016 - src.parsers.product_parser - INFO - Воркер 1: Товар 2384141558 обработан успешно
+2026-02-03 15:04:01,092 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:01,152 - src.parsers.product_parser - INFO - Воркер 3: Товар 1626321562 обработан успешно
+2026-02-03 15:04:01,403 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:01,464 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:01,486 - src.parsers.product_parser - INFO - Воркер 4: Товар 3195311509 обработан успешно
+2026-02-03 15:04:01,495 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:01,533 - src.parsers.product_parser - INFO - Воркер 2: Товар 917140399 обработан успешно
+2026-02-03 15:04:01,550 - src.parsers.product_parser - INFO - Воркер 5: Товар 1831034126 обработан успешно
+2026-02-03 15:04:02,736 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:02,786 - src.parsers.product_parser - INFO - Воркер 1: Товар 1317471187 обработан успешно
+2026-02-03 15:04:02,860 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:02,901 - src.parsers.product_parser - INFO - Воркер 3: Товар 617840256 обработан успешно
+2026-02-03 15:04:03,236 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:03,295 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:03,325 - src.parsers.product_parser - INFO - Воркер 4: Товар 2926874728 обработан успешно
+2026-02-03 15:04:03,370 - src.parsers.product_parser - INFO - Воркер 2: Товар 2216311671 обработан успешно
+2026-02-03 15:04:03,384 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:03,431 - src.parsers.product_parser - INFO - Воркер 5: Товар 2752812428 обработан успешно
+2026-02-03 15:04:04,501 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:04,549 - src.parsers.product_parser - INFO - Воркер 1: Товар 1927815543 обработан успешно
+2026-02-03 15:04:05,099 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:05,112 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:05,163 - src.parsers.product_parser - INFO - Воркер 2: Товар 2383625900 обработан успешно
+2026-02-03 15:04:05,167 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:05,181 - src.parsers.product_parser - INFO - Воркер 5: Товар 273595542 обработан успешно
+2026-02-03 15:04:05,224 - src.parsers.product_parser - INFO - Воркер 4: Товар 223494764 обработан успешно
+2026-02-03 15:04:05,569 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:05,605 - src.parsers.product_parser - INFO - Воркер 3: Товар 1715822901 обработан успешно
+2026-02-03 15:04:06,291 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:06,330 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1690974432
+2026-02-03 15:04:06,331 - src.parsers.product_parser - INFO - Воркер 1: Товар 1690974432 обработан успешно
+2026-02-03 15:04:06,898 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:06,977 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:06,978 - src.parsers.product_parser - INFO - Воркер 2: Товар 1559870497 обработан успешно
+2026-02-03 15:04:06,989 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:07,036 - src.parsers.product_parser - INFO - Воркер 5: Товар 3245547210 обработан успешно
+2026-02-03 15:04:07,051 - src.parsers.product_parser - INFO - Воркер 4: Товар 403752178 обработан успешно
+2026-02-03 15:04:07,344 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:07,383 - src.parsers.product_parser - INFO - Воркер 3: Товар 1308964959 обработан успешно
+2026-02-03 15:04:08,056 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:08,100 - src.parsers.product_parser - INFO - Воркер 1: Товар 2422621081 обработан успешно
+2026-02-03 15:04:08,739 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:08,817 - src.parsers.product_parser - INFO - Воркер 2: Товар 1227500744 обработан успешно
+2026-02-03 15:04:08,826 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:08,848 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:08,875 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1719389976
+2026-02-03 15:04:08,875 - src.parsers.product_parser - INFO - Воркер 4: Товар 1719389976 обработан успешно
+2026-02-03 15:04:08,886 - src.parsers.product_parser - INFO - Воркер 5: Товар 1839496645 обработан успешно
+2026-02-03 15:04:09,140 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:09,174 - src.parsers.product_parser - INFO - Воркер 3: Товар 1994985570 обработан успешно
+2026-02-03 15:04:09,810 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:09,855 - src.parsers.product_parser - INFO - Воркер 1: Товар 834977994 обработан успешно
+2026-02-03 15:04:10,545 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:10,696 - src.parsers.product_parser - INFO - Воркер 2: Товар 1596869440 обработан успешно
+2026-02-03 15:04:10,710 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:10,855 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:10,897 - src.parsers.product_parser - INFO - Воркер 4: Товар 1762742581 обработан успешно
+2026-02-03 15:04:10,907 - src.parsers.product_parser - INFO - Воркер 5: Товар 2223579413 обработан успешно
+2026-02-03 15:04:11,023 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:11,062 - src.parsers.product_parser - INFO - Воркер 3: Товар 268595015 обработан успешно
+2026-02-03 15:04:11,615 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:11,663 - src.parsers.product_parser - INFO - Воркер 1: Товар 1628345305 обработан успешно
+2026-02-03 15:04:12,403 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:12,447 - src.parsers.product_parser - INFO - Воркер 2: Товар 617824438 обработан успешно
+2026-02-03 15:04:12,634 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:12,643 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:12,682 - src.parsers.product_parser - INFO - Воркер 4: Товар 1741433678 обработан успешно
+2026-02-03 15:04:12,691 - src.parsers.product_parser - INFO - Воркер 5: Товар 1956340225 обработан успешно
+2026-02-03 15:04:13,235 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:13,271 - src.parsers.product_parser - INFO - Воркер 3: Товар 3195198422 обработан успешно
+2026-02-03 15:04:13,452 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:13,489 - src.parsers.product_parser - INFO - Воркер 1: Товар 3064297308 обработан успешно
+2026-02-03 15:04:14,169 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:14,224 - src.parsers.product_parser - INFO - Воркер 2: Товар 1225657608 обработан успешно
+2026-02-03 15:04:14,436 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:14,459 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:14,479 - src.parsers.product_parser - INFO - Воркер 5: Товар 1405668668 обработан успешно
+2026-02-03 15:04:14,499 - src.parsers.product_parser - INFO - Воркер 4: Товар 3370314162 обработан успешно
+2026-02-03 15:04:15,024 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:15,061 - src.parsers.product_parser - INFO - Воркер 3: Товар 1715077238 обработан успешно
+2026-02-03 15:04:15,176 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:15,214 - src.parsers.product_parser - INFO - Воркер 1: Товар 1775785966 обработан успешно
+2026-02-03 15:04:15,909 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:15,946 - src.parsers.product_parser - INFO - Воркер 2: Товар 2475065018 обработан успешно
+2026-02-03 15:04:16,150 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:16,189 - src.parsers.product_parser - INFO - Воркер 5: Товар 3351901869 обработан успешно
+2026-02-03 15:04:16,219 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:16,260 - src.parsers.product_parser - INFO - Воркер 4: Товар 409007859 обработан успешно
+2026-02-03 15:04:16,790 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:16,846 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1690974582
+2026-02-03 15:04:16,847 - src.parsers.product_parser - INFO - Воркер 3: Товар 1690974582 обработан успешно
+2026-02-03 15:04:16,942 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:16,978 - src.parsers.product_parser - INFO - Воркер 1: Товар 2819656178 обработан успешно
+2026-02-03 15:04:17,915 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:17,976 - src.parsers.product_parser - INFO - Воркер 5: Товар 1664725425 обработан успешно
+2026-02-03 15:04:18,045 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:18,084 - src.parsers.product_parser - INFO - Воркер 4: Товар 1420275967 обработан успешно
+2026-02-03 15:04:18,619 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:18,652 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:18,667 - src.parsers.product_parser - INFO - Воркер 2: Товар 912930556 обработан успешно
+2026-02-03 15:04:18,712 - src.parsers.product_parser - INFO - Воркер 3: Товар 3036780044 обработан успешно
+2026-02-03 15:04:18,750 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:18,792 - src.parsers.product_parser - INFO - Воркер 1: Товар 1714293967 обработан успешно
+2026-02-03 15:04:19,751 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:19,798 - src.parsers.product_parser - INFO - Воркер 5: Товар 2943454155 обработан успешно
+2026-02-03 15:04:19,805 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:19,843 - src.parsers.product_parser - INFO - Воркер 4: Товар 2844344874 обработан успешно
+2026-02-03 15:04:20,442 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:20,484 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:20,507 - src.parsers.product_parser - INFO - Воркер 3: Товар 1899419801 обработан успешно
+2026-02-03 15:04:20,543 - src.parsers.product_parser - INFO - Воркер 2: Товар 701102685 обработан успешно
+2026-02-03 15:04:20,567 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:20,606 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1719390007
+2026-02-03 15:04:20,607 - src.parsers.product_parser - INFO - Воркер 1: Товар 1719390007 обработан успешно
+2026-02-03 15:04:21,567 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:21,584 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:21,616 - src.parsers.product_parser - INFO - Воркер 5: Товар 2855187490 обработан успешно
+2026-02-03 15:04:21,628 - src.parsers.product_parser - INFO - Воркер 4: Товар 333839129 обработан успешно
+2026-02-03 15:04:22,210 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:22,270 - src.parsers.product_parser - INFO - Воркер 3: Товар 2201799431 обработан успешно
+2026-02-03 15:04:22,281 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:22,345 - src.parsers.product_parser - INFO - Воркер 2: Товар 912928648 обработан успешно
+2026-02-03 15:04:22,351 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:22,394 - src.parsers.product_parser - INFO - Воркер 1: Товар 3072564085 обработан успешно
+2026-02-03 15:04:23,379 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:23,411 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:23,443 - src.parsers.product_parser - INFO - Воркер 4: Товар 617826792 обработан успешно
+2026-02-03 15:04:23,458 - src.parsers.product_parser - INFO - Воркер 5: Товар 1923241917 обработан успешно
+2026-02-03 15:04:24,010 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:24,158 - src.parsers.product_parser - INFO - Воркер 3: Товар 1627182585 обработан успешно
+2026-02-03 15:04:24,206 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:24,225 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:24,252 - src.parsers.product_parser - INFO - Воркер 1: Товар 697961710 обработан успешно
+2026-02-03 15:04:24,268 - src.parsers.product_parser - INFO - Воркер 2: Товар 2929463980 обработан успешно
+2026-02-03 15:04:25,224 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:25,230 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:25,268 - src.parsers.product_parser - INFO - Воркер 4: Товар 1574003953 обработан успешно
+2026-02-03 15:04:25,279 - src.parsers.product_parser - INFO - Воркер 5: Товар 1177722140 обработан успешно
+2026-02-03 15:04:25,967 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:26,024 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:26,048 - src.parsers.product_parser - INFO - Воркер 3: Товар 1287171971 обработан успешно
+2026-02-03 15:04:26,095 - src.parsers.product_parser - INFO - Воркер 1: Товар 1658870296 обработан успешно
+2026-02-03 15:04:26,104 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:26,145 - src.parsers.product_parser - INFO - Воркер 2: Товар 2917762445 обработан успешно
+2026-02-03 15:04:27,009 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:27,053 - src.parsers.product_parser - INFO - Воркер 4: Товар 912928488 обработан успешно
+2026-02-03 15:04:27,128 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:27,171 - src.parsers.product_parser - INFO - Воркер 5: Товар 1991774076 обработан успешно
+2026-02-03 15:04:27,742 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:27,800 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:27,815 - src.parsers.product_parser - INFO - Воркер 3: Товар 1302156698 обработан успешно
+2026-02-03 15:04:27,863 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:27,874 - src.parsers.product_parser - INFO - Воркер 1: Товар 3195180696 обработан успешно
+2026-02-03 15:04:27,910 - src.parsers.product_parser - INFO - Воркер 2: Товар 2819655925 обработан успешно
+2026-02-03 15:04:28,849 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:28,894 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1710346012
+2026-02-03 15:04:28,896 - src.parsers.product_parser - INFO - Воркер 4: Товар 1710346012 обработан успешно
+2026-02-03 15:04:28,925 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:28,966 - src.parsers.product_parser - INFO - Воркер 5: Товар 2699669312 обработан успешно
+2026-02-03 15:04:29,636 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:29,664 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:29,722 - src.parsers.product_parser - INFO - Воркер 3: Товар 1756838866 обработан успешно
+2026-02-03 15:04:29,729 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:29,741 - src.parsers.product_parser - INFO - Воркер 1: Товар 1676112920 обработан успешно
+2026-02-03 15:04:29,786 - src.parsers.product_parser - INFO - Воркер 2: Товар 1757775051 обработан успешно
+2026-02-03 15:04:30,655 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:30,707 - src.parsers.product_parser - INFO - Воркер 4: Товар 1677225805 обработан успешно
+2026-02-03 15:04:30,762 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:30,805 - src.parsers.product_parser - INFO - Воркер 5: Товар 1747310007 обработан успешно
+2026-02-03 15:04:31,533 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:31,560 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:31,577 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:31,611 - src.parsers.product_parser - INFO - Воркер 2: Товар 2807217183 обработан успешно
+2026-02-03 15:04:31,671 - src.parsers.product_parser - INFO - Воркер 1: Товар 1858416338 обработан успешно
+2026-02-03 15:04:31,716 - src.parsers.product_parser - INFO - Воркер 3: Товар 2561984412 обработан успешно
+2026-02-03 15:04:32,518 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:32,536 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:32,565 - src.parsers.product_parser - INFO - Воркер 5: Товар 1653820548 обработан успешно
+2026-02-03 15:04:32,578 - src.parsers.product_parser - INFO - Воркер 4: Товар 1800580744 обработан успешно
+2026-02-03 15:04:33,423 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:33,434 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:33,466 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:33,513 - src.parsers.product_parser - INFO - Воркер 1: Товар 1954412801 обработан успешно
+2026-02-03 15:04:33,523 - src.parsers.product_parser - INFO - Воркер 2: Товар 1775734588 обработан успешно
+2026-02-03 15:04:33,533 - src.parsers.product_parser - INFO - Воркер 3: Товар 3370420842 обработан успешно
+2026-02-03 15:04:34,317 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:34,401 - src.parsers.product_parser - INFO - Воркер 5: Товар 3176226516 обработан успешно
+2026-02-03 15:04:34,448 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:34,491 - src.parsers.product_parser - INFO - Воркер 4: Товар 1677155089 обработан успешно
+2026-02-03 15:04:35,264 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:35,279 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:35,316 - src.parsers.product_parser - INFO - Воркер 3: Товар 410579915 обработан успешно
+2026-02-03 15:04:35,321 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:35,332 - src.parsers.product_parser - INFO - Воркер 2: Товар 3195170661 обработан успешно
+2026-02-03 15:04:35,371 - src.parsers.product_parser - INFO - Воркер 1: Товар 1677704946 обработан успешно
+2026-02-03 15:04:36,068 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:36,112 - src.parsers.product_parser - INFO - Воркер 5: Товар 701170557 обработан успешно
+2026-02-03 15:04:36,201 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:36,242 - src.parsers.product_parser - INFO - Воркер 4: Товар 3195252720 обработан успешно
+2026-02-03 15:04:37,071 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:37,112 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:37,148 - src.parsers.product_parser - INFO - Воркер 2: Товар 619443833 обработан успешно
+2026-02-03 15:04:37,153 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:37,166 - src.parsers.product_parser - INFO - Воркер 3: Товар 383426449 обработан успешно
+2026-02-03 15:04:37,200 - src.parsers.product_parser - INFO - Воркер 1: Товар 1937882818 обработан успешно
+2026-02-03 15:04:37,813 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:37,862 - src.parsers.product_parser - INFO - Воркер 5: Товар 217562691 обработан успешно
+2026-02-03 15:04:37,993 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:38,031 - src.parsers.product_parser - INFO - Воркер 4: Товар 2926874690 обработан успешно
+2026-02-03 15:04:38,870 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:38,908 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:38,931 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:38,966 - src.parsers.product_parser - INFO - Воркер 2: Товар 2943454357 обработан успешно
+2026-02-03 15:04:39,004 - src.parsers.product_parser - INFO - Воркер 3: Товар 266956000 обработан успешно
+2026-02-03 15:04:39,018 - src.parsers.product_parser - INFO - Воркер 1: Товар 3068645528 обработан успешно
+2026-02-03 15:04:39,579 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:39,620 - src.parsers.product_parser - INFO - Воркер 5: Товар 1169614065 обработан успешно
+2026-02-03 15:04:39,733 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:39,773 - src.parsers.product_parser - INFO - Воркер 4: Товар 2838291929 обработан успешно
+2026-02-03 15:04:40,758 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:40,791 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:40,823 - src.parsers.product_parser - INFO - Воркер 1: Товар 1658855834 обработан успешно
+2026-02-03 15:04:40,830 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:40,847 - src.parsers.product_parser - INFO - Воркер 3: Товар 619443904 обработан успешно
+2026-02-03 15:04:40,883 - src.parsers.product_parser - INFO - Воркер 2: Товар 1762759989 обработан успешно
+2026-02-03 15:04:41,315 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:41,361 - src.parsers.product_parser - INFO - Воркер 5: Товар 2819656184 обработан успешно
+2026-02-03 15:04:41,487 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:41,528 - src.parsers.product_parser - INFO - Воркер 4: Товар 309764691 обработан успешно
+2026-02-03 15:04:42,649 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:42,656 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:42,684 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:42,716 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 2801530064
+2026-02-03 15:04:42,717 - src.parsers.product_parser - INFO - Воркер 3: Товар 2801530064 обработан успешно
+2026-02-03 15:04:42,727 - src.parsers.product_parser - INFO - Воркер 2: Товар 257748010 обработан успешно
+2026-02-03 15:04:42,743 - src.parsers.product_parser - INFO - Воркер 1: Товар 1758051024 обработан успешно
+2026-02-03 15:04:43,144 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:43,192 - src.parsers.product_parser - INFO - Воркер 5: Товар 1625584063 обработан успешно
+2026-02-03 15:04:43,221 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:43,260 - src.parsers.product_parser - INFO - Воркер 4: Товар 273595694 обработан успешно
+2026-02-03 15:04:44,489 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:44,499 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:44,563 - src.parsers.product_parser - INFO - Воркер 3: Товар 1787942029 обработан успешно
+2026-02-03 15:04:44,576 - src.parsers.product_parser - INFO - Воркер 2: Товар 1699585952 обработан успешно
+2026-02-03 15:04:44,582 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:44,624 - src.parsers.product_parser - INFO - Воркер 1: Товар 1741939813 обработан успешно
+2026-02-03 15:04:45,029 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:45,099 - src.parsers.product_parser - INFO - Воркер 4: Товар 2943454008 обработан успешно
+2026-02-03 15:04:45,150 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:45,193 - src.parsers.product_parser - INFO - Воркер 5: Товар 2822933728 обработан успешно
+2026-02-03 15:04:46,346 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:46,355 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:46,374 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:46,411 - src.parsers.product_parser - INFO - Воркер 2: Товар 1997693866 обработан успешно
+2026-02-03 15:04:46,427 - src.parsers.product_parser - INFO - Воркер 3: Товар 1565130773 обработан успешно
+2026-02-03 15:04:46,440 - src.parsers.product_parser - INFO - Воркер 1: Товар 1025438822 обработан успешно
+2026-02-03 15:04:46,842 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:46,884 - src.parsers.product_parser - INFO - Воркер 4: Товар 588294116 обработан успешно
+2026-02-03 15:04:46,915 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:46,956 - src.parsers.product_parser - INFO - Воркер 5: Товар 562896457 обработан успешно
+2026-02-03 15:04:48,140 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:48,150 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:48,173 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:48,206 - src.parsers.product_parser - INFO - Воркер 3: Товар 728121409 обработан успешно
+2026-02-03 15:04:48,216 - src.parsers.product_parser - INFO - Воркер 2: Товар 1837343621 обработан успешно
+2026-02-03 15:04:48,226 - src.parsers.product_parser - INFO - Воркер 1: Товар 619444247 обработан успешно
+2026-02-03 15:04:48,603 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:48,654 - src.parsers.product_parser - INFO - Воркер 4: Товар 1699583758 обработан успешно
+2026-02-03 15:04:48,661 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:48,704 - src.parsers.product_parser - INFO - Воркер 5: Товар 619444217 обработан успешно
+2026-02-03 15:04:50,077 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:50,082 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:50,090 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:50,132 - src.parsers.product_parser - INFO - Воркер 1: Товар 1631347541 обработан успешно
+2026-02-03 15:04:50,145 - src.parsers.product_parser - INFO - Воркер 3: Товар 1738939472 обработан успешно
+2026-02-03 15:04:50,155 - src.parsers.product_parser - INFO - Воркер 2: Товар 619443896 обработан успешно
+2026-02-03 15:04:50,401 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:50,407 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:50,439 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1690974440
+2026-02-03 15:04:50,440 - src.parsers.product_parser - INFO - Воркер 4: Товар 1690974440 обработан успешно
+2026-02-03 15:04:50,450 - src.parsers.product_parser - INFO - Воркер 5: Товар 409007862 обработан успешно
+2026-02-03 15:04:51,839 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:51,923 - src.parsers.product_parser - INFO - Воркер 1: Товар 633248414 обработан успешно
+2026-02-03 15:04:51,930 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:52,006 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:52,021 - src.parsers.product_parser - INFO - Воркер 3: Товар 1302156700 обработан успешно
+2026-02-03 15:04:52,057 - src.parsers.product_parser - INFO - Воркер 2: Товар 1720563467 обработан успешно
+2026-02-03 15:04:52,196 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:52,219 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:52,242 - src.parsers.product_parser - INFO - Воркер 5: Товар 314050761 обработан успешно
+2026-02-03 15:04:52,261 - src.parsers.product_parser - INFO - Воркер 4: Товар 775274352 обработан успешно
+2026-02-03 15:04:53,638 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:53,682 - src.parsers.product_parser - INFO - Воркер 1: Товар 1997524430 обработан успешно
+2026-02-03 15:04:53,754 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:53,806 - src.parsers.product_parser - INFO - Воркер 3: Товар 1070623431 обработан успешно
+2026-02-03 15:04:53,862 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:53,915 - src.parsers.product_parser - INFO - Воркер 2: Товар 1677804356 обработан успешно
+2026-02-03 15:04:53,961 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:53,976 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:54,006 - src.parsers.product_parser - INFO - Воркер 4: Товар 1658188628 обработан успешно
+2026-02-03 15:04:54,022 - src.parsers.product_parser - INFO - Воркер 5: Товар 2095451852 обработан успешно
+2026-02-03 15:04:55,392 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:55,494 - src.parsers.product_parser - INFO - Воркер 1: Товар 1559871821 обработан успешно
+2026-02-03 15:04:55,595 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:55,653 - src.parsers.product_parser - INFO - Воркер 3: Товар 1524531585 обработан успешно
+2026-02-03 15:04:55,711 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:55,820 - src.parsers.product_parser - INFO - Воркер 2: Товар 262726941 обработан успешно
+2026-02-03 15:04:55,894 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:55,906 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:55,947 - src.parsers.product_parser - INFO - Воркер 5: Товар 1867929191 обработан успешно
+2026-02-03 15:04:55,961 - src.parsers.product_parser - INFO - Воркер 4: Товар 1719864824 обработан успешно
+2026-02-03 15:04:57,232 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:57,270 - src.parsers.product_parser - INFO - Воркер 1: Товар 1642923106 обработан успешно
+2026-02-03 15:04:57,430 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:57,475 - src.parsers.product_parser - INFO - Воркер 3: Товар 2426221105 обработан успешно
+2026-02-03 15:04:57,574 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:57,620 - src.parsers.product_parser - INFO - Воркер 2: Товар 1643012549 обработан успешно
+2026-02-03 15:04:57,669 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:57,709 - src.parsers.product_parser - INFO - Воркер 5: Товар 2026973420 обработан успешно
+2026-02-03 15:04:57,743 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:04:57,786 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1720183447
+2026-02-03 15:04:57,787 - src.parsers.product_parser - INFO - Воркер 4: Товар 1720183447 обработан успешно
+2026-02-03 15:05:01,555 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:02,237 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:02,281 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:02,534 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:02,554 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:02,872 - src.parsers.product_parser - INFO - Воркер 2: Товар 1627181114 обработан успешно
+2026-02-03 15:05:03,428 - src.parsers.product_parser - INFO - Воркер 1: Товар 292066110 обработан успешно
+2026-02-03 15:05:03,720 - src.parsers.product_parser - INFO - Воркер 3: Товар 230892061 обработан успешно
+2026-02-03 15:05:03,757 - src.parsers.product_parser - INFO - Воркер 4: Товар 1721240314 обработан успешно
+2026-02-03 15:05:03,851 - src.parsers.product_parser - INFO - Воркер 5: Товар 1699584030 обработан успешно
+2026-02-03 15:05:05,338 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:05,437 - src.parsers.product_parser - INFO - Воркер 2: Товар 2926874902 обработан успешно
+2026-02-03 15:05:05,650 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:05,657 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:05,674 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:05,722 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:05,734 - src.parsers.product_parser - INFO - Воркер 3: Товар 1302156717 обработан успешно
+2026-02-03 15:05:05,745 - src.parsers.product_parser - INFO - Воркер 1: Товар 1419846039 обработан успешно
+2026-02-03 15:05:05,758 - src.parsers.product_parser - INFO - Воркер 4: Товар 225563058 обработан успешно
+2026-02-03 15:05:05,795 - src.parsers.product_parser - INFO - Воркер 5: Товар 1757492995 обработан успешно
+2026-02-03 15:05:07,189 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:07,229 - src.parsers.product_parser - INFO - Воркер 2: Товар 1711207364 обработан успешно
+2026-02-03 15:05:07,462 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:07,529 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:07,535 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:07,542 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:07,554 - src.parsers.product_parser - INFO - Воркер 3: Товар 936034995 обработан успешно
+2026-02-03 15:05:07,592 - src.parsers.product_parser - INFO - Воркер 4: Товар 1565143368 обработан успешно
+2026-02-03 15:05:07,601 - src.parsers.product_parser - INFO - Воркер 5: Товар 2799974626 обработан успешно
+2026-02-03 15:05:07,610 - src.parsers.product_parser - INFO - Воркер 1: Товар 223763153 обработан успешно
+2026-02-03 15:05:09,033 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:09,507 - src.parsers.product_parser - INFO - Воркер 2: Товар 2531115485 обработан успешно
+2026-02-03 15:05:09,513 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:09,555 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:09,568 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:09,584 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:09,602 - src.parsers.product_parser - INFO - Воркер 3: Товар 796434070 обработан успешно
+2026-02-03 15:05:09,622 - src.parsers.product_parser - INFO - Воркер 4: Товар 2157381436 обработан успешно
+2026-02-03 15:05:09,636 - src.parsers.product_parser - INFO - Воркер 1: Товар 1997416136 обработан успешно
+2026-02-03 15:05:09,650 - src.parsers.product_parser - INFO - Воркер 5: Товар 2384115853 обработан успешно
+2026-02-03 15:05:11,208 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:11,253 - src.parsers.product_parser - INFO - Воркер 2: Товар 617823795 обработан успешно
+2026-02-03 15:05:11,473 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:11,479 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:11,487 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:11,531 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:11,548 - src.parsers.product_parser - INFO - Воркер 3: Товар 2097473360 обработан успешно
+2026-02-03 15:05:11,574 - src.parsers.product_parser - INFO - Воркер 4: Товар 619443855 обработан успешно
+2026-02-03 15:05:11,578 - src.parsers.product_parser - INFO - Воркер 1: Товар 2926874704 обработан успешно
+2026-02-03 15:05:11,616 - src.parsers.product_parser - INFO - Воркер 5: Товар 1741864021 обработан успешно
+2026-02-03 15:05:13,013 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:13,049 - src.parsers.product_parser - INFO - Воркер 2: Товар 1711262987 обработан успешно
+2026-02-03 15:05:13,320 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:13,360 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:13,382 - src.parsers.product_parser - INFO - Воркер 1: Товар 2904338030 обработан успешно
+2026-02-03 15:05:13,389 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:13,415 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:13,425 - src.parsers.product_parser - INFO - Воркер 3: Товар 1753401773 обработан успешно
+2026-02-03 15:05:13,436 - src.parsers.product_parser - INFO - Воркер 5: Товар 1628694152 обработан успешно
+2026-02-03 15:05:13,473 - src.parsers.product_parser - INFO - Воркер 4: Товар 2948593828 обработан успешно
+2026-02-03 15:05:14,753 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:14,796 - src.parsers.product_parser - INFO - Воркер 2: Товар 619444283 обработан успешно
+2026-02-03 15:05:15,122 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:15,181 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:15,187 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:15,228 - src.parsers.product_parser - INFO - Воркер 1: Товар 2859728097 обработан успешно
+2026-02-03 15:05:15,247 - src.parsers.product_parser - INFO - Воркер 5: Товар 619443893 обработан успешно
+2026-02-03 15:05:15,260 - src.parsers.product_parser - INFO - Воркер 3: Товар 1002821230 обработан успешно
+2026-02-03 15:05:15,267 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:15,314 - src.parsers.product_parser - INFO - Воркер 4: Товар 149463493 обработан успешно
+2026-02-03 15:05:16,548 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:16,583 - src.parsers.product_parser - INFO - Воркер 2: Товар 1758898167 обработан успешно
+2026-02-03 15:05:16,965 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:16,992 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:17,027 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:17,063 - src.parsers.product_parser - INFO - Воркер 5: Товар 1074016062 обработан успешно
+2026-02-03 15:05:17,092 - src.parsers.product_parser - INFO - Воркер 1: Товар 1059650622 обработан успешно
+2026-02-03 15:05:17,138 - src.parsers.product_parser - INFO - Воркер 3: Товар 1447897569 обработан успешно
+2026-02-03 15:05:17,163 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:17,218 - src.parsers.product_parser - INFO - Воркер 4: Товар 3161721481 обработан успешно
+2026-02-03 15:05:18,279 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:18,320 - src.parsers.product_parser - INFO - Воркер 2: Товар 2410001534 обработан успешно
+2026-02-03 15:05:18,932 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:18,941 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:18,970 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:18,999 - src.parsers.product_parser - INFO - Воркер 5: Товар 631862664 обработан успешно
+2026-02-03 15:05:19,020 - src.parsers.product_parser - INFO - Воркер 1: Товар 1699585627 обработан успешно
+2026-02-03 15:05:19,036 - src.parsers.product_parser - INFO - Воркер 3: Товар 1022456429 обработан успешно
+2026-02-03 15:05:19,042 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:19,084 - src.parsers.product_parser - INFO - Воркер 4: Товар 721533676 обработан успешно
+2026-02-03 15:05:20,073 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:20,110 - src.parsers.product_parser - INFO - Воркер 2: Товар 1849195783 обработан успешно
+2026-02-03 15:05:20,784 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:20,849 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:20,856 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:20,879 - src.parsers.product_parser - INFO - Воркер 5: Товар 273595493 обработан успешно
+2026-02-03 15:05:20,898 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:20,919 - src.parsers.product_parser - INFO - Воркер 3: Товар 1305696444 обработан успешно
+2026-02-03 15:05:20,934 - src.parsers.product_parser - INFO - Воркер 1: Товар 1559935553 обработан успешно
+2026-02-03 15:05:20,956 - src.parsers.product_parser - INFO - Воркер 4: Товар 583186071 обработан успешно
+2026-02-03 15:05:21,926 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:22,032 - src.parsers.product_parser - INFO - Воркер 2: Товар 3108933844 обработан успешно
+2026-02-03 15:05:22,600 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:22,672 - src.parsers.product_parser - INFO - Воркер 5: Товар 1339506178 обработан успешно
+2026-02-03 15:05:22,682 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:22,713 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:22,745 - src.parsers.product_parser - INFO - Воркер 1: Товар 2819656017 обработан успешно
+2026-02-03 15:05:22,762 - src.parsers.product_parser - INFO - Воркер 4: Товар 257524591 обработан успешно
+2026-02-03 15:05:22,774 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:22,811 - src.parsers.product_parser - INFO - Воркер 3: Товар 2561734539 обработан успешно
+2026-02-03 15:05:23,726 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:23,765 - src.parsers.product_parser - INFO - Воркер 2: Товар 273596715 обработан успешно
+2026-02-03 15:05:24,579 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:24,595 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:24,607 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:24,626 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:24,651 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1547844639
+2026-02-03 15:05:24,664 - src.parsers.product_parser - INFO - Воркер 5: Товар 1677220906 обработан успешно
+2026-02-03 15:05:24,665 - src.parsers.product_parser - INFO - Воркер 1: Товар 1547844639 обработан успешно
+2026-02-03 15:05:24,677 - src.parsers.product_parser - INFO - Воркер 4: Товар 273595547 обработан успешно
+2026-02-03 15:05:24,690 - src.parsers.product_parser - INFO - Воркер 3: Товар 1849206725 обработан успешно
+2026-02-03 15:05:25,527 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:25,580 - src.parsers.product_parser - INFO - Воркер 2: Товар 1740533045 обработан успешно
+2026-02-03 15:05:26,409 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:26,423 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:26,475 - src.parsers.product_parser - INFO - Воркер 3: Товар 791172522 обработан успешно
+2026-02-03 15:05:26,488 - src.parsers.product_parser - INFO - Воркер 1: Товар 1268221605 обработан успешно
+2026-02-03 15:05:26,495 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:26,533 - src.parsers.product_parser - INFO - Воркер 5: Товар 3119244718 обработан успешно
+2026-02-03 15:05:26,595 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:26,642 - src.parsers.product_parser - INFO - Воркер 4: Товар 1732898758 обработан успешно
+2026-02-03 15:05:27,295 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:27,336 - src.parsers.product_parser - INFO - Воркер 2: Товар 907241282 обработан успешно
+2026-02-03 15:05:28,420 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:28,427 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:28,567 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:28,578 - src.parsers.product_parser - INFO - Воркер 3: Товар 1421070389 обработан успешно
+2026-02-03 15:05:28,584 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:28,596 - src.parsers.product_parser - INFO - Воркер 1: Товар 2213594420 обработан успешно
+2026-02-03 15:05:28,646 - src.parsers.product_parser - INFO - Воркер 5: Товар 1624471791 обработан успешно
+2026-02-03 15:05:28,660 - src.parsers.product_parser - INFO - Воркер 4: Товар 1308928971 обработан успешно
+2026-02-03 15:05:29,103 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:29,150 - src.parsers.product_parser - INFO - Воркер 2: Товар 1641748112 обработан успешно
+2026-02-03 15:05:30,546 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:30,556 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:30,566 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:30,577 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:30,622 - src.parsers.product_parser - INFO - Воркер 1: Товар 1428930217 обработан успешно
+2026-02-03 15:05:30,634 - src.parsers.product_parser - INFO - Воркер 3: Товар 617823803 обработан успешно
+2026-02-03 15:05:30,645 - src.parsers.product_parser - INFO - Воркер 5: Товар 1775730397 обработан успешно
+2026-02-03 15:05:30,659 - src.parsers.product_parser - INFO - Воркер 4: Товар 223884045 обработан успешно
+2026-02-03 15:05:30,900 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:30,943 - src.parsers.product_parser - INFO - Воркер 2: Товар 986590612 обработан успешно
+2026-02-03 15:05:32,391 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:32,423 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:32,445 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:32,470 - src.parsers.product_parser - INFO - Воркер 3: Товар 823602691 обработан успешно
+2026-02-03 15:05:32,494 - src.parsers.product_parser - INFO - Воркер 1: Товар 619443748 обработан успешно
+2026-02-03 15:05:32,514 - src.parsers.product_parser - INFO - Воркер 4: Товар 603598559 обработан успешно
+2026-02-03 15:05:32,537 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:32,589 - src.parsers.product_parser - INFO - Воркер 5: Товар 2822933536 обработан успешно
+2026-02-03 15:05:32,645 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:32,685 - src.parsers.product_parser - INFO - Воркер 2: Товар 1665404549 обработан успешно
+2026-02-03 15:05:34,303 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:34,310 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:34,443 - src.parsers.product_parser - INFO - Воркер 1: Товар 2201800455 обработан успешно
+2026-02-03 15:05:34,454 - src.parsers.product_parser - INFO - Воркер 3: Товар 149567805 обработан успешно
+2026-02-03 15:05:34,460 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:34,464 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:34,514 - src.parsers.product_parser - INFO - Воркер 4: Товар 1770623583 обработан успешно
+2026-02-03 15:05:34,526 - src.parsers.product_parser - INFO - Воркер 5: Товар 1857702488 обработан успешно
+2026-02-03 15:05:34,619 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:34,661 - src.parsers.product_parser - INFO - Воркер 2: Товар 2706205531 обработан успешно
+2026-02-03 15:05:36,309 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:36,362 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:36,413 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:36,494 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:36,514 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:36,535 - src.parsers.product_parser - INFO - Воркер 3: Товар 2476901718 обработан успешно
+2026-02-03 15:05:36,548 - src.parsers.product_parser - INFO - Воркер 1: Товар 1237317949 обработан успешно
+2026-02-03 15:05:36,559 - src.parsers.product_parser - INFO - Воркер 5: Товар 2838989227 обработан успешно
+2026-02-03 15:05:36,572 - src.parsers.product_parser - INFO - Воркер 4: Товар 1605083817 обработан успешно
+2026-02-03 15:05:36,583 - src.parsers.product_parser - INFO - Воркер 2: Товар 1740554494 обработан успешно
+2026-02-03 15:05:40,968 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:42,326 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:42,666 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:42,900 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:43,290 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:43,422 - src.parsers.product_parser - INFO - Воркер 2: Товар 701101735 обработан успешно
+2026-02-03 15:05:44,551 - src.parsers.product_parser - INFO - Воркер 5: Товар 2755482587 обработан успешно
+2026-02-03 15:05:44,560 - src.parsers.product_parser - INFO - Воркер 1: Товар 265079627 обработан успешно
+2026-02-03 15:05:44,578 - src.parsers.product_parser - INFO - Воркер 3: Товар 2403022473 обработан успешно
+2026-02-03 15:05:44,609 - src.parsers.product_parser - INFO - Воркер 4: Товар 2179828399 обработан успешно
+2026-02-03 15:05:45,429 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:45,483 - src.parsers.product_parser - INFO - Воркер 2: Товар 1332790743 обработан успешно
+2026-02-03 15:05:46,669 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:46,740 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:46,753 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:46,773 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:46,821 - src.parsers.product_parser - INFO - Воркер 5: Товар 1690059781 обработан успешно
+2026-02-03 15:05:46,836 - src.parsers.product_parser - INFO - Воркер 3: Товар 1541866379 обработан успешно
+2026-02-03 15:05:46,851 - src.parsers.product_parser - INFO - Воркер 1: Товар 845657007 обработан успешно
+2026-02-03 15:05:46,864 - src.parsers.product_parser - INFO - Воркер 4: Товар 2926491580 обработан успешно
+2026-02-03 15:05:47,445 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:47,691 - src.parsers.product_parser - INFO - Воркер 2: Товар 1159460150 обработан успешно
+2026-02-03 15:05:49,020 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:49,031 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:49,038 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:49,122 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:49,248 - src.parsers.product_parser - INFO - Воркер 3: Товар 1982872113 обработан успешно
+2026-02-03 15:05:49,366 - src.parsers.product_parser - INFO - Воркер 5: Товар 922852806 обработан успешно
+2026-02-03 15:05:49,405 - src.parsers.product_parser - INFO - Воркер 1: Товар 619435951 обработан успешно
+2026-02-03 15:05:49,406 - src.parsers.product_parser - INFO - Воркер 4: Товар 1757703540 обработан успешно
+2026-02-03 15:05:49,642 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:51,818 - src.parsers.product_parser - INFO - Воркер 2: Товар 1741393672 обработан успешно
+2026-02-03 15:05:52,400 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:52,434 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:52,501 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:52,556 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:52,579 - src.parsers.product_parser - INFO - Воркер 3: Товар 267895469 обработан успешно
+2026-02-03 15:05:52,601 - src.parsers.product_parser - INFO - Воркер 1: Товар 1428870955 обработан успешно
+2026-02-03 15:05:52,626 - src.parsers.product_parser - INFO - Воркер 4: Товар 1673505202 обработан успешно
+2026-02-03 15:05:52,691 - src.parsers.product_parser - INFO - Воркер 5: Товар 224362094 обработан успешно
+2026-02-03 15:05:53,765 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:53,836 - src.parsers.product_parser - INFO - Воркер 2: Товар 1676996550 обработан успешно
+2026-02-03 15:05:54,767 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:54,780 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:54,787 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:54,816 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:54,894 - src.parsers.product_parser - INFO - Воркер 3: Товар 1342789980 обработан успешно
+2026-02-03 15:05:54,913 - src.parsers.product_parser - INFO - Воркер 4: Товар 3111994109 обработан успешно
+2026-02-03 15:05:54,931 - src.parsers.product_parser - INFO - Воркер 1: Товар 149854883 обработан успешно
+2026-02-03 15:05:54,948 - src.parsers.product_parser - INFO - Воркер 5: Товар 2801496137 обработан успешно
+2026-02-03 15:05:55,702 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:55,800 - src.parsers.product_parser - INFO - Воркер 2: Товар 1677160521 обработан успешно
+2026-02-03 15:05:56,821 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:56,836 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:56,849 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:56,862 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:56,941 - src.parsers.product_parser - INFO - Воркер 4: Товар 619444139 обработан успешно
+2026-02-03 15:05:56,982 - src.parsers.product_parser - INFO - Воркер 5: Товар 266956065 обработан успешно
+2026-02-03 15:05:57,005 - src.parsers.product_parser - INFO - Воркер 3: Товар 1741867131 обработан успешно
+2026-02-03 15:05:57,018 - src.parsers.product_parser - INFO - Воркер 1: Товар 3256352893 обработан успешно
+2026-02-03 15:05:57,620 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:57,679 - src.parsers.product_parser - INFO - Воркер 2: Товар 1711535307 обработан успешно
+2026-02-03 15:05:58,959 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:59,100 - src.parsers.product_parser - INFO - Воркер 3: Товар 2596779363 обработан успешно
+2026-02-03 15:05:59,113 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:59,131 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:59,213 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:59,236 - src.parsers.product_parser - INFO - Воркер 4: Товар 2038858577 обработан успешно
+2026-02-03 15:05:59,262 - src.parsers.product_parser - INFO - Воркер 1: Товар 1302156841 обработан успешно
+2026-02-03 15:05:59,318 - src.parsers.product_parser - INFO - Воркер 5: Товар 1994887618 обработан успешно
+2026-02-03 15:05:59,432 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:05:59,484 - src.parsers.product_parser - INFO - Воркер 2: Товар 2673480418 обработан успешно
+2026-02-03 15:06:01,466 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:01,594 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:01,613 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:01,617 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:01,684 - src.parsers.product_parser - INFO - Воркер 1: Товар 619444001 обработан успешно
+2026-02-03 15:06:01,690 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:01,710 - src.parsers.product_parser - INFO - Воркер 5: Товар 3060244115 обработан успешно
+2026-02-03 15:06:01,732 - src.parsers.product_parser - INFO - Воркер 4: Товар 1012319716 обработан успешно
+2026-02-03 15:06:01,746 - src.parsers.product_parser - INFO - Воркер 3: Товар 1972707642 обработан успешно
+2026-02-03 15:06:01,796 - src.parsers.product_parser - INFO - Воркер 2: Товар 828175981 обработан успешно
+2026-02-03 15:06:03,712 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:03,799 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:03,816 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:03,828 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:03,840 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:03,916 - src.parsers.product_parser - INFO - Воркер 1: Товар 208622127 обработан успешно
+2026-02-03 15:06:03,950 - src.parsers.product_parser - INFO - Воркер 3: Товар 1719865220 обработан успешно
+2026-02-03 15:06:03,979 - src.parsers.product_parser - INFO - Воркер 5: Товар 223496257 обработан успешно
+2026-02-03 15:06:03,995 - src.parsers.product_parser - INFO - Воркер 2: Товар 1554825923 обработан успешно
+2026-02-03 15:06:04,014 - src.parsers.product_parser - INFO - Воркер 4: Товар 1692610149 обработан успешно
+2026-02-03 15:06:05,790 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:05,799 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:05,807 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:05,823 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:05,895 - src.parsers.product_parser - INFO - Воркер 2: Товар 1539988006 обработан успешно
+2026-02-03 15:06:05,925 - src.parsers.product_parser - INFO - Воркер 3: Товар 223500222 обработан успешно
+2026-02-03 15:06:05,941 - src.parsers.product_parser - INFO - Воркер 1: Товар 1070640811 обработан успешно
+2026-02-03 15:06:05,945 - src.parsers.product_parser - INFO - Воркер 5: Товар 1559873184 обработан успешно
+2026-02-03 15:06:05,949 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:05,996 - src.parsers.product_parser - INFO - Воркер 4: Товар 2280809632 обработан успешно
+2026-02-03 15:06:07,767 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:07,794 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:07,843 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:07,853 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:07,862 - src.parsers.product_parser - INFO - Воркер 2: Товар 1302156268 обработан успешно
+2026-02-03 15:06:07,881 - src.parsers.product_parser - INFO - Воркер 1: Товар 1776083942 обработан успешно
+2026-02-03 15:06:07,883 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:07,906 - src.parsers.product_parser - INFO - Воркер 3: Товар 1738617398 обработан успешно
+2026-02-03 15:06:07,945 - src.parsers.product_parser - INFO - Воркер 5: Товар 2929464075 обработан успешно
+2026-02-03 15:06:07,960 - src.parsers.product_parser - INFO - Воркер 4: Товар 619444094 обработан успешно
+2026-02-03 15:06:12,945 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:13,396 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:13,583 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:13,592 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:13,601 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:13,796 - src.parsers.product_parser - INFO - Воркер 2: Товар 403750071 обработан успешно
+2026-02-03 15:06:14,210 - src.parsers.product_parser - INFO - Воркер 4: Товар 1623747062 обработан успешно
+2026-02-03 15:06:14,750 - src.parsers.product_parser - INFO - Воркер 3: Товар 617824677 обработан успешно
+2026-02-03 15:06:14,880 - src.parsers.product_parser - INFO - Воркер 5: Товар 1809720406 обработан успешно
+2026-02-03 15:06:15,103 - src.parsers.product_parser - INFO - Воркер 1: Товар 619443903 обработан успешно
+2026-02-03 15:06:15,603 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:15,664 - src.parsers.product_parser - INFO - Воркер 2: Товар 2869348393 обработан успешно
+2026-02-03 15:06:16,909 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:16,915 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:16,954 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:16,988 - src.parsers.product_parser - INFO - Воркер 3: Товар 1412733819 обработан успешно
+2026-02-03 15:06:17,006 - src.parsers.product_parser - INFO - Воркер 4: Товар 617824881 обработан успешно
+2026-02-03 15:06:17,012 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:17,029 - src.parsers.product_parser - INFO - Воркер 1: Товар 1853180371 обработан успешно
+2026-02-03 15:06:17,089 - src.parsers.product_parser - INFO - Воркер 5: Товар 865691511 обработан успешно
+2026-02-03 15:06:17,409 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:17,456 - src.parsers.product_parser - INFO - Воркер 2: Товар 1025460989 обработан успешно
+2026-02-03 15:06:19,021 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:19,076 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:19,091 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:19,109 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:19,391 - src.parsers.product_parser - INFO - Воркер 5: Товар 406253987 обработан успешно
+2026-02-03 15:06:19,413 - src.parsers.product_parser - INFO - Воркер 3: Товар 811063477 обработан успешно
+2026-02-03 15:06:19,425 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:19,458 - src.parsers.product_parser - INFO - Воркер 4: Товар 588290317 обработан успешно
+2026-02-03 15:06:19,459 - src.parsers.product_parser - INFO - Воркер 1: Товар 1982856494 обработан успешно
+2026-02-03 15:06:19,521 - src.parsers.product_parser - INFO - Воркер 2: Товар 1937889470 обработан успешно
+2026-02-03 15:06:21,597 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:21,640 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:21,654 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:21,748 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:21,786 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:21,834 - src.parsers.product_parser - INFO - Воркер 1: Товар 3198775803 обработан успешно
+2026-02-03 15:06:21,857 - src.parsers.product_parser - INFO - Воркер 2: Товар 1740047845 обработан успешно
+2026-02-03 15:06:21,870 - src.parsers.product_parser - INFO - Воркер 3: Товар 1564992259 обработан успешно
+2026-02-03 15:06:21,903 - src.parsers.product_parser - INFO - Воркер 5: Товар 1626529958 обработан успешно
+2026-02-03 15:06:21,921 - src.parsers.product_parser - INFO - Воркер 4: Товар 1732897775 обработан успешно
+2026-02-03 15:06:25,727 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:25,745 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:25,779 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:25,827 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:25,878 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:27,046 - src.parsers.product_parser - INFO - Воркер 3: Товар 257507517 обработан успешно
+2026-02-03 15:06:27,243 - src.parsers.product_parser - INFO - Воркер 1: Товар 1773603974 обработан успешно
+2026-02-03 15:06:27,250 - src.parsers.product_parser - INFO - Воркер 4: Товар 150253672 обработан успешно
+2026-02-03 15:06:27,275 - src.parsers.product_parser - INFO - Воркер 2: Товар 619553469 обработан успешно
+2026-02-03 15:06:27,358 - src.parsers.product_parser - INFO - Воркер 5: Товар 1681394894 обработан успешно
+2026-02-03 15:06:30,050 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:30,132 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:30,145 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:30,201 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:30,215 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:30,232 - src.parsers.product_parser - INFO - Воркер 2: Товар 1677131976 обработан успешно
+2026-02-03 15:06:30,265 - src.parsers.product_parser - INFO - Воркер 1: Товар 2659443583 обработан успешно
+2026-02-03 15:06:30,282 - src.parsers.product_parser - INFO - Воркер 3: Товар 3052578948 обработан успешно
+2026-02-03 15:06:30,297 - src.parsers.product_parser - INFO - Воркер 4: Товар 406253736 обработан успешно
+2026-02-03 15:06:30,317 - src.parsers.product_parser - INFO - Воркер 5: Товар 619430919 обработан успешно
+2026-02-03 15:06:32,002 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:32,073 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:32,085 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:32,103 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:32,141 - src.parsers.product_parser - INFO - Воркер 2: Товар 1840999805 обработан успешно
+2026-02-03 15:06:32,142 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:32,162 - src.parsers.product_parser - INFO - Воркер 1: Товар 1420973040 обработан успешно
+2026-02-03 15:06:32,172 - src.parsers.product_parser - INFO - Воркер 5: Товар 1344633290 обработан успешно
+2026-02-03 15:06:32,184 - src.parsers.product_parser - INFO - Воркер 3: Товар 1767326072 обработан успешно
+2026-02-03 15:06:32,215 - src.parsers.product_parser - INFO - Воркер 4: Товар 701171691 обработан успешно
+2026-02-03 15:06:33,955 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:33,963 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:33,978 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:34,064 - src.parsers.product_parser - INFO - Воркер 5: Товар 799848960 обработан успешно
+2026-02-03 15:06:34,081 - src.parsers.product_parser - INFO - Воркер 1: Товар 3169175270 обработан успешно
+2026-02-03 15:06:34,093 - src.parsers.product_parser - INFO - Воркер 2: Товар 1913871847 обработан успешно
+2026-02-03 15:06:34,097 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:34,103 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:34,152 - src.parsers.product_parser - INFO - Воркер 4: Товар 2859498214 обработан успешно
+2026-02-03 15:06:34,169 - src.parsers.product_parser - INFO - Воркер 3: Товар 562896458 обработан успешно
+2026-02-03 15:06:35,950 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:35,955 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:35,965 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:35,980 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:35,986 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:36,065 - src.parsers.product_parser - INFO - Воркер 5: Товар 2138876235 обработан успешно
+2026-02-03 15:06:36,080 - src.parsers.product_parser - INFO - Воркер 3: Товар 912929896 обработан успешно
+2026-02-03 15:06:36,102 - src.parsers.product_parser - INFO - Воркер 4: Товар 1606608317 обработан успешно
+2026-02-03 15:06:36,107 - src.parsers.product_parser - INFO - Воркер 2: Товар 2559538594 обработан успешно
+2026-02-03 15:06:36,118 - src.parsers.product_parser - INFO - Воркер 1: Товар 273595725 обработан успешно
+2026-02-03 15:06:37,867 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:37,877 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:37,917 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:37,963 - src.parsers.product_parser - INFO - Воркер 5: Товар 1565148341 обработан успешно
+2026-02-03 15:06:37,969 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:37,975 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:37,986 - src.parsers.product_parser - INFO - Воркер 2: Товар 617823838 обработан успешно
+2026-02-03 15:06:37,999 - src.parsers.product_parser - INFO - Воркер 4: Товар 2665837942 обработан успешно
+2026-02-03 15:06:38,040 - src.parsers.product_parser - INFO - Воркер 3: Товар 2699736808 обработан успешно
+2026-02-03 15:06:38,051 - src.parsers.product_parser - INFO - Воркер 1: Товар 1747309231 обработан успешно
+2026-02-03 15:06:39,833 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:39,843 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:39,855 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:39,886 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:39,898 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:39,912 - src.parsers.product_parser - INFO - Воркер 5: Товар 1551224167 обработан успешно
+2026-02-03 15:06:39,924 - src.parsers.product_parser - INFO - Воркер 3: Товар 2658549752 обработан успешно
+2026-02-03 15:06:39,936 - src.parsers.product_parser - INFO - Воркер 4: Товар 2561897481 обработан успешно
+2026-02-03 15:06:39,975 - src.parsers.product_parser - WARNING - seller_id не найден ни в sticky_product_data, ни в резервном поиске для товара 1690974444
+2026-02-03 15:06:39,976 - src.parsers.product_parser - INFO - Воркер 2: Товар 1690974444 обработан успешно
+2026-02-03 15:06:39,989 - src.parsers.product_parser - INFO - Воркер 1: Товар 619423799 обработан успешно
+2026-02-03 15:06:41,719 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:41,780 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:41,790 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:41,811 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:41,839 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:41,859 - src.parsers.product_parser - INFO - Воркер 5: Товар 1937887556 обработан успешно
+2026-02-03 15:06:41,884 - src.parsers.product_parser - INFO - Воркер 4: Товар 2960574100 обработан успешно
+2026-02-03 15:06:41,893 - src.parsers.product_parser - INFO - Воркер 1: Товар 2281608397 обработан успешно
+2026-02-03 15:06:41,909 - src.parsers.product_parser - INFO - Воркер 3: Товар 2476788114 обработан успешно
+2026-02-03 15:06:41,944 - src.parsers.product_parser - INFO - Воркер 2: Товар 406251429 обработан успешно
+2026-02-03 15:06:43,725 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:43,739 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:43,759 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:43,768 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:43,781 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:43,818 - src.parsers.product_parser - INFO - Воркер 2: Товар 3412468341 обработан успешно
+2026-02-03 15:06:43,834 - src.parsers.product_parser - INFO - Воркер 3: Товар 2873535846 обработан успешно
+2026-02-03 15:06:43,848 - src.parsers.product_parser - INFO - Воркер 1: Товар 3236711413 обработан успешно
+2026-02-03 15:06:43,870 - src.parsers.product_parser - INFO - Воркер 4: Товар 845632217 обработан успешно
+2026-02-03 15:06:43,879 - src.parsers.product_parser - INFO - Воркер 5: Товар 1743014691 обработан успешно
+2026-02-03 15:06:45,799 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:45,806 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:45,820 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:45,828 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:45,866 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:45,882 - src.parsers.product_parser - INFO - Воркер 3: Товар 1982858407 обработан успешно
+2026-02-03 15:06:45,897 - src.parsers.product_parser - INFO - Воркер 5: Товар 3053395222 обработан успешно
+2026-02-03 15:06:45,911 - src.parsers.product_parser - INFO - Воркер 1: Товар 1082668135 обработан успешно
+2026-02-03 15:06:45,923 - src.parsers.product_parser - INFO - Воркер 2: Товар 1802383323 обработан успешно
+2026-02-03 15:06:45,949 - src.parsers.product_parser - INFO - Воркер 4: Товар 1806323598 обработан успешно
+2026-02-03 15:06:47,740 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:47,755 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:47,763 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:47,779 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:47,790 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:47,827 - src.parsers.product_parser - INFO - Воркер 2: Товар 1209419335 обработан успешно
+2026-02-03 15:06:47,844 - src.parsers.product_parser - INFO - Воркер 5: Товар 753249298 обработан успешно
+2026-02-03 15:06:47,854 - src.parsers.product_parser - INFO - Воркер 3: Товар 1421070191 обработан успешно
+2026-02-03 15:06:47,881 - src.parsers.product_parser - INFO - Воркер 4: Товар 267939169 обработан успешно
+2026-02-03 15:06:47,881 - src.parsers.product_parser - INFO - Воркер 1: Товар 1847990792 обработан успешно
+2026-02-03 15:06:49,671 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:49,684 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:49,706 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:49,730 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:49,754 - src.parsers.product_parser - INFO - Воркер 2: Товар 619443887 обработан успешно
+2026-02-03 15:06:49,761 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:49,773 - src.parsers.product_parser - INFO - Воркер 3: Товар 3043131407 обработан успешно
+2026-02-03 15:06:49,794 - src.parsers.product_parser - INFO - Воркер 4: Товар 619549774 обработан успешно
+2026-02-03 15:06:49,810 - src.parsers.product_parser - INFO - Воркер 1: Товар 1427412003 обработан успешно
+2026-02-03 15:06:49,825 - src.parsers.product_parser - INFO - Воркер 5: Товар 1818306335 обработан успешно
+2026-02-03 15:06:51,758 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:51,766 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:51,773 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:51,781 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:51,806 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:51,841 - src.parsers.product_parser - INFO - Воркер 5: Товар 266956011 обработан успешно
+2026-02-03 15:06:51,856 - src.parsers.product_parser - INFO - Воркер 4: Товар 1390786180 обработан успешно
+2026-02-03 15:06:51,869 - src.parsers.product_parser - INFO - Воркер 1: Товар 774041171 обработан успешно
+2026-02-03 15:06:51,878 - src.parsers.product_parser - INFO - Воркер 2: Товар 2187995916 обработан успешно
+2026-02-03 15:06:51,887 - src.parsers.product_parser - INFO - Воркер 3: Товар 739341041 обработан успешно
+2026-02-03 15:06:53,680 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:53,689 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:53,774 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:53,782 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:53,801 - src.parsers.product_parser - INFO - Воркер 5: Товар 1713269756 обработан успешно
+2026-02-03 15:06:53,811 - src.parsers.product_parser - INFO - Воркер 3: Товар 3091220231 обработан успешно
+2026-02-03 15:06:53,817 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:53,839 - src.parsers.product_parser - INFO - Воркер 2: Товар 907239949 обработан успешно
+2026-02-03 15:06:53,857 - src.parsers.product_parser - INFO - Воркер 4: Товар 223651213 обработан успешно
+2026-02-03 15:06:53,874 - src.parsers.product_parser - INFO - Воркер 1: Товар 1758146504 обработан успешно
+2026-02-03 15:06:55,508 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:55,527 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:55,578 - src.parsers.product_parser - INFO - Воркер 5: Товар 2433434855 обработан успешно
+2026-02-03 15:06:55,647 - src.parsers.product_parser - INFO - Воркер 3: Товар 2698342222 обработан успешно
+2026-02-03 15:06:55,672 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:55,694 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:55,742 - src.parsers.product_parser - INFO - Воркер 2: Товар 1677166932 обработан успешно
+2026-02-03 15:06:55,749 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:55,759 - src.parsers.product_parser - INFO - Воркер 1: Товар 2551389538 обработан успешно
+2026-02-03 15:06:55,807 - src.parsers.product_parser - INFO - Воркер 4: Товар 1677194301 обработан успешно
+2026-02-03 15:06:57,399 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:57,412 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:57,669 - src.parsers.product_parser - INFO - Воркер 3: Товар 267915873 обработан успешно
+2026-02-03 15:06:57,687 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:57,722 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:57,728 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:57,743 - src.parsers.product_parser - INFO - Воркер 5: Товар 1946840981 обработан успешно
+2026-02-03 15:06:57,801 - src.parsers.product_parser - INFO - Воркер 1: Товар 223645974 обработан успешно
+2026-02-03 15:06:57,822 - src.parsers.product_parser - INFO - Воркер 4: Товар 1767010355 обработан успешно
+2026-02-03 15:06:57,827 - src.parsers.product_parser - INFO - Воркер 2: Товар 2010147006 обработан успешно
+2026-02-03 15:06:59,463 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:59,689 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:59,711 - src.parsers.product_parser - INFO - Воркер 3: Товар 922852190 обработан успешно
+2026-02-03 15:06:59,728 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:59,739 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:59,773 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:06:59,807 - src.parsers.product_parser - INFO - Воркер 5: Товар 2926874700 обработан успешно
+2026-02-03 15:06:59,819 - src.parsers.product_parser - INFO - Воркер 4: Товар 1420972946 обработан успешно
+2026-02-03 15:06:59,832 - src.parsers.product_parser - INFO - Воркер 2: Товар 2829920184 обработан успешно
+2026-02-03 15:06:59,842 - src.parsers.product_parser - INFO - Воркер 1: Товар 2167831828 обработан успешно
+2026-02-03 15:07:01,476 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:01,584 - src.parsers.product_parser - INFO - Воркер 3: Товар 2173159815 обработан успешно
+2026-02-03 15:07:01,603 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:01,630 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:01,637 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:01,664 - src.parsers.product_parser - INFO - Воркер 4: Товар 619431206 обработан успешно
+2026-02-03 15:07:01,688 - src.parsers.product_parser - INFO - Воркер 5: Товар 1565138921 обработан успешно
+2026-02-03 15:07:01,702 - src.parsers.product_parser - INFO - Воркер 2: Товар 1319947569 обработан успешно
+2026-02-03 15:07:01,708 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:01,752 - src.parsers.product_parser - INFO - Воркер 1: Товар 1760153696 обработан успешно
+2026-02-03 15:07:03,260 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:03,306 - src.parsers.product_parser - INFO - Воркер 3: Товар 1598500539 обработан успешно
+2026-02-03 15:07:03,404 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:03,456 - src.parsers.product_parser - INFO - Воркер 5: Товар 276429498 обработан успешно
+2026-02-03 15:07:03,474 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:03,639 - src.parsers.product_parser - INFO - Воркер 1: Товар 1800659266 обработан успешно
+2026-02-03 15:07:03,645 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:03,650 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:03,708 - src.parsers.product_parser - INFO - Воркер 4: Товар 1720737681 обработан успешно
+2026-02-03 15:07:03,719 - src.parsers.product_parser - INFO - Воркер 2: Товар 2960811322 обработан успешно
+2026-02-03 15:07:05,024 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:05,063 - src.parsers.product_parser - INFO - Воркер 3: Товар 2019222581 обработан успешно
+2026-02-03 15:07:05,151 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:05,195 - src.parsers.product_parser - INFO - Воркер 5: Товар 1616734310 обработан успешно
+2026-02-03 15:07:05,358 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:05,413 - src.parsers.product_parser - INFO - Воркер 1: Товар 1411104578 обработан успешно
+2026-02-03 15:07:05,479 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:05,502 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:05,523 - src.parsers.product_parser - INFO - Воркер 4: Товар 3171439762 обработан успешно
+2026-02-03 15:07:05,542 - src.parsers.product_parser - INFO - Воркер 2: Товар 314292444 обработан успешно
+2026-02-03 15:07:06,760 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:06,796 - src.parsers.product_parser - INFO - Воркер 3: Товар 1306018584 обработан успешно
+2026-02-03 15:07:06,901 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:06,939 - src.parsers.product_parser - INFO - Воркер 5: Товар 1565130783 обработан успешно
+2026-02-03 15:07:07,136 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:07,246 - src.parsers.product_parser - INFO - Воркер 1: Товар 701101809 обработан успешно
+2026-02-03 15:07:07,304 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:07,361 - src.parsers.product_parser - INFO - Воркер 2: Товар 1787735895 обработан успешно
+2026-02-03 15:07:08,692 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:08,732 - src.parsers.product_parser - INFO - Воркер 5: Товар 1887784124 обработан успешно
+2026-02-03 15:07:09,065 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:09,070 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:09,116 - src.parsers.product_parser - INFO - Воркер 1: Товар 1756912651 обработан успешно
+2026-02-03 15:07:09,124 - src.parsers.product_parser - INFO - Воркер 2: Товар 1428924133 обработан успешно
+2026-02-03 15:07:09,928 - src.parsers.product_parser - INFO - Воркер 4 закрыт
+2026-02-03 15:07:09,931 - src.parsers.product_parser - INFO - Воркер 4 завершил работу с 100 товарами
+2026-02-03 15:07:10,533 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:10,571 - src.parsers.product_parser - INFO - Воркер 5: Товар 1741862682 обработан успешно
+2026-02-03 15:07:10,845 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:10,909 - src.parsers.product_parser - INFO - Воркер 2: Товар 3302546494 обработан успешно
+2026-02-03 15:07:10,940 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:10,974 - src.parsers.product_parser - INFO - Воркер 1: Товар 609762567 обработан успешно
+2026-02-03 15:07:11,041 - src.parsers.product_parser - INFO - Воркер 3 закрыт
+2026-02-03 15:07:11,042 - src.parsers.product_parser - INFO - Воркер 3 завершил работу с 100 товарами
+2026-02-03 15:07:12,270 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:12,304 - src.parsers.product_parser - INFO - Воркер 5: Товар 1428922972 обработан успешно
+2026-02-03 15:07:12,665 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:12,709 - src.parsers.product_parser - INFO - Воркер 1: Товар 2138875661 обработан успешно
+2026-02-03 15:07:12,742 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:12,780 - src.parsers.product_parser - INFO - Воркер 2: Товар 2881048949 обработан успешно
+2026-02-03 15:07:14,499 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:14,551 - src.parsers.product_parser - INFO - Воркер 1: Товар 3014100218 обработан успешно
+2026-02-03 15:07:14,582 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:14,622 - src.parsers.product_parser - INFO - Воркер 2: Товар 823560328 обработан успешно
+2026-02-03 15:07:16,286 - src.parsers.product_parser - INFO - Воркер 5 закрыт
+2026-02-03 15:07:16,287 - src.parsers.product_parser - INFO - Воркер 5 завершил работу с 100 товарами
+2026-02-03 15:07:16,346 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:16,347 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:16,390 - src.parsers.product_parser - INFO - Воркер 1: Товар 1616024898 обработан успешно
+2026-02-03 15:07:16,398 - src.parsers.product_parser - INFO - Воркер 2: Товар 1809720402 обработан успешно
+2026-02-03 15:07:20,462 - src.parsers.product_parser - INFO - Воркер 1 закрыт
+2026-02-03 15:07:20,463 - src.parsers.product_parser - INFO - Воркер 2 закрыт
+2026-02-03 15:07:20,463 - src.parsers.product_parser - INFO - Воркер 1 завершил работу с 100 товарами
+2026-02-03 15:07:20,464 - src.parsers.product_parser - INFO - Воркер 2 завершил работу с 100 товарами
+2026-02-03 15:07:20,468 - src.parsers.product_parser - INFO - Очистка ресурсов парсера товаров...
+2026-02-03 15:07:22,469 - src.parsers.product_parser - INFO - Ресурсы парсера товаров очищены
+2026-02-03 15:07:22,472 - src.core.app_manager - WARNING - Товар 1690974432 (Versace Парфюмерная вода для женщин Bright Crystal) не имеет seller_id
+2026-02-03 15:07:22,473 - src.core.app_manager - WARNING - Товар 1719389976 (Chanel Парфюмерная вода для женщин N°5, 50 мл) не имеет seller_id
+2026-02-03 15:07:22,473 - src.core.app_manager - WARNING - Товар 1719390007 (Givenchy Парфюмерная вода для женщин Irresistible,) не имеет seller_id
+2026-02-03 15:07:22,473 - src.core.app_manager - WARNING - Товар 1690974582 (Versace Парфюмерная вода для женщин Dylan Purple P) не имеет seller_id
+2026-02-03 15:07:22,474 - src.core.app_manager - WARNING - Товар 1710346012 (Armand Basi Парфюмерная вода для женщин In Red, 10) не имеет seller_id
+2026-02-03 15:07:22,474 - src.core.app_manager - WARNING - Товар 2801530064 (Moschino Парфюмерная вода Toy Boy, 30 мл) не имеет seller_id
+2026-02-03 15:07:22,474 - src.core.app_manager - WARNING - Товар 1690974440 (Versace Парфюмерная вода для мужчин Eros, 100 мл) не имеет seller_id
+2026-02-03 15:07:22,475 - src.core.app_manager - WARNING - Товар 1720183447 (Lancome Парфюмерная вода для женщин La Vie Est Bel) не имеет seller_id
+2026-02-03 15:07:22,475 - src.core.app_manager - WARNING - Товар 1547844639 (Clinique Парфюмерная вода Happy, 100 мл) не имеет seller_id
+2026-02-03 15:07:22,476 - src.core.app_manager - WARNING - Товар 1690974444 (Versace Парфюмерная вода для мужчин Eros Flame, 10) не имеет seller_id
+2026-02-03 15:07:22,476 - src.core.app_manager - INFO - Статистика seller_id: всего товаров=500, успешных=498, с seller_id=488, уникальных селлеров=115
+2026-02-03 15:07:22,477 - src.core.app_manager - INFO - Начинаем парсинг 115 продавцов (поля: ['name', 'company_name', 'product_url', 'orders_count', 'reviews_count', 'seller_name', 'seller_id', 'seller_link'])
+2026-02-03 15:07:22,479 - src.parsers.seller_parser - INFO - Парсер продавцов инициализирован с макс 10 воркерами для пользователя 1134933168
+2026-02-03 15:07:22,480 - src.utils.resource_manager - INFO - Обновлена сессия пользователя 1134933168: этап sellers, 115 элементов
+2026-02-03 15:07:22,481 - src.utils.resource_manager - INFO - Справедливое распределение воркеров для 1 пользователей:
+2026-02-03 15:07:22,481 - src.utils.resource_manager - INFO -   Пользователь 1134933168: 5 воркеров (sellers)
+2026-02-03 15:07:22,481 - src.utils.resource_manager - INFO - Пользователь 1134933168 получил 5 воркеров для этапа sellers (активных пользователей: 1)
+2026-02-03 15:07:22,482 - src.parsers.seller_parser - INFO - Начало парсинга 115 продавцов с 5 воркерами для пользователя 1134933168
+2026-02-03 15:07:22,482 - src.parsers.seller_parser - INFO - Воркер продавцов 1: 23 продавцов
+2026-02-03 15:07:22,483 - src.parsers.seller_parser - INFO - Воркер продавцов 2: 23 продавцов
+2026-02-03 15:07:22,483 - src.parsers.seller_parser - INFO - Воркер продавцов 3: 23 продавцов
+2026-02-03 15:07:22,483 - src.parsers.seller_parser - INFO - Воркер продавцов 4: 23 продавцов
+2026-02-03 15:07:22,484 - src.parsers.seller_parser - INFO - Воркер продавцов 5: 23 продавцов
+2026-02-03 15:07:22,486 - src.parsers.seller_parser - INFO - Воркер продавцов 1 инициализирован
+2026-02-03 15:07:22,488 - src.parsers.seller_parser - INFO - Воркер продавцов 2 инициализирован
+2026-02-03 15:07:22,489 - src.parsers.seller_parser - INFO - Воркер продавцов 3 инициализирован
+2026-02-03 15:07:22,494 - src.parsers.seller_parser - INFO - Воркер продавцов 4 инициализирован
+2026-02-03 15:07:22,496 - src.parsers.seller_parser - INFO - Воркер продавцов 5 инициализирован
+2026-02-03 15:07:25,301 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 15:07:25,315 - src.parsers.seller_parser - INFO - Воркер продавцов 2 готов к работе
+2026-02-03 15:07:25,621 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 15:07:25,622 - src.parsers.seller_parser - INFO - Воркер продавцов 5 готов к работе
+2026-02-03 15:07:25,810 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:25,811 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 15:07:25,815 - src.parsers.seller_parser - INFO - Воркер продавцов 4 готов к работе
+2026-02-03 15:07:26,266 - src.utils.selenium_manager - INFO - Обнаружена блокировка, перезагрузка страницы (попытка 1/3)
+2026-02-03 15:07:26,336 - src.utils.selenium_manager - INFO - Обнаружена блокировка, перезагрузка страницы (попытка 1/3)
+2026-02-03 15:07:26,492 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 15:07:26,493 - src.parsers.seller_parser - INFO - Воркер продавцов 3 готов к работе
+2026-02-03 15:07:26,875 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:28,206 - src.utils.selenium_manager - INFO - Chrome драйвер создан успешно
+2026-02-03 15:07:28,206 - src.parsers.seller_parser - INFO - Воркер продавцов 1 готов к работе
+2026-02-03 15:07:28,481 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:28,635 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 2570506 обработан успешно
+2026-02-03 15:07:29,501 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 1495704 обработан успешно
+2026-02-03 15:07:30,275 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:30,346 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 141919 обработан успешно
+2026-02-03 15:07:31,359 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 417172 обработан успешно
+2026-02-03 15:07:31,894 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:32,510 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 3420563 обработан успешно
+2026-02-03 15:07:32,568 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:32,956 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 1345860 обработан успешно
+2026-02-03 15:07:33,918 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:34,476 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 940063 обработан успешно
+2026-02-03 15:07:34,920 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:35,383 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:35,513 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 533996 обработан успешно
+2026-02-03 15:07:35,772 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 1290503 обработан успешно
+2026-02-03 15:07:36,724 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:37,038 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 491259 обработан успешно
+2026-02-03 15:07:37,888 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:37,892 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:37,930 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 2517665 обработан успешно
+2026-02-03 15:07:37,932 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 887639 обработан успешно
+2026-02-03 15:07:38,655 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:38,696 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 1649947 обработан успешно
+2026-02-03 15:07:39,558 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:39,562 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:39,580 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 439689 обработан успешно
+2026-02-03 15:07:39,583 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 1681464 обработан успешно
+2026-02-03 15:07:40,287 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:40,306 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 757451 обработан успешно
+2026-02-03 15:07:41,172 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:41,187 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:41,200 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 3280956 обработан успешно
+2026-02-03 15:07:41,207 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 92238 обработан успешно
+2026-02-03 15:07:41,416 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:41,431 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 537282 обработан успешно
+2026-02-03 15:07:41,482 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:41,497 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 1885472 обработан успешно
+2026-02-03 15:07:41,876 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:41,894 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 578195 обработан успешно
+2026-02-03 15:07:43,017 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:43,282 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:43,375 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:43,454 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:43,568 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 2972730 обработан успешно
+2026-02-03 15:07:43,805 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 3681260 обработан успешно
+2026-02-03 15:07:43,834 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 181996 обработан успешно
+2026-02-03 15:07:43,991 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 1369689 обработан успешно
+2026-02-03 15:07:44,176 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:44,469 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 3524820 обработан успешно
+2026-02-03 15:07:45,417 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:46,020 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 3312879 обработан успешно
+2026-02-03 15:07:46,060 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:46,227 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:46,249 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:46,472 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 81282 обработан успешно
+2026-02-03 15:07:46,507 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:46,538 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 2550268 обработан успешно
+2026-02-03 15:07:46,541 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 206335 обработан успешно
+2026-02-03 15:07:46,588 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 1652244 обработан успешно
+2026-02-03 15:07:47,755 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:47,786 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 981596 обработан успешно
+2026-02-03 15:07:48,127 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:48,194 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 3267127 обработан успешно
+2026-02-03 15:07:48,321 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:48,345 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:48,351 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:48,391 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 1953964 обработан успешно
+2026-02-03 15:07:48,397 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 314987 обработан успешно
+2026-02-03 15:07:48,403 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 2528767 обработан успешно
+2026-02-03 15:07:49,387 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:49,411 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 489244 обработан успешно
+2026-02-03 15:07:49,883 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:49,943 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 1830612 обработан успешно
+2026-02-03 15:07:50,064 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:50,066 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:50,068 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:50,119 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 1332455 обработан успешно
+2026-02-03 15:07:50,123 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 66868 обработан успешно
+2026-02-03 15:07:50,126 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 2706701 обработан успешно
+2026-02-03 15:07:51,041 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:51,066 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 2582451 обработан успешно
+2026-02-03 15:07:51,538 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:51,562 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 388776 обработан успешно
+2026-02-03 15:07:51,769 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:51,770 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:51,776 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:51,828 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 2619 обработан успешно
+2026-02-03 15:07:51,832 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 2463169 обработан успешно
+2026-02-03 15:07:51,837 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 2265601 обработан успешно
+2026-02-03 15:07:52,659 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:52,685 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 893192 обработан успешно
+2026-02-03 15:07:53,165 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:53,195 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 3253391 обработан успешно
+2026-02-03 15:07:53,555 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:53,597 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:53,598 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:53,960 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 732272 обработан успешно
+2026-02-03 15:07:53,970 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 1053851 обработан успешно
+2026-02-03 15:07:53,974 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 103299 обработан успешно
+2026-02-03 15:07:54,302 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:54,326 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 45078 обработан успешно
+2026-02-03 15:07:54,803 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:54,829 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 617718 обработан успешно
+2026-02-03 15:07:55,681 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:55,683 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:55,716 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:55,742 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 962333 обработан успешно
+2026-02-03 15:07:55,747 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 465099 обработан успешно
+2026-02-03 15:07:55,773 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 41037 обработан успешно
+2026-02-03 15:07:55,955 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:55,983 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 2314596 обработан успешно
+2026-02-03 15:07:56,468 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:56,513 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 2396133 обработан успешно
+2026-02-03 15:07:57,423 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:57,428 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:57,503 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 6495 обработан успешно
+2026-02-03 15:07:57,568 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 6714 обработан успешно
+2026-02-03 15:07:57,751 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:57,851 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 2763126 обработан успешно
+2026-02-03 15:07:58,037 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:58,143 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:58,170 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 2500323 обработан успешно
+2026-02-03 15:07:58,240 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 123619 обработан успешно
+2026-02-03 15:07:59,141 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:59,172 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 2325638 обработан успешно
+2026-02-03 15:07:59,229 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:59,252 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 1036479 обработан успешно
+2026-02-03 15:07:59,460 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:59,482 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 1302501 обработан успешно
+2026-02-03 15:07:59,837 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:59,889 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:07:59,916 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 519636 обработан успешно
+2026-02-03 15:07:59,920 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 1308046 обработан успешно
+2026-02-03 15:08:00,881 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:00,909 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:00,912 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 2326506 обработан успешно
+2026-02-03 15:08:00,957 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 6821 обработан успешно
+2026-02-03 15:08:01,085 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:01,111 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 156353 обработан успешно
+2026-02-03 15:08:01,577 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:01,582 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:01,597 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 2456890 обработан успешно
+2026-02-03 15:08:01,600 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 1246104 обработан успешно
+2026-02-03 15:08:02,840 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:04,027 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:04,792 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 1250216 обработан успешно
+2026-02-03 15:08:04,846 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:04,942 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:04,984 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:05,199 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 1992783 обработан успешно
+2026-02-03 15:08:05,338 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 828914 обработан успешно
+2026-02-03 15:08:05,375 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 1409252 обработан успешно
+2026-02-03 15:08:05,408 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 10567 обработан успешно
+2026-02-03 15:08:08,446 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:08,827 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:08,858 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:08,869 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:08,912 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:09,000 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 2456814 обработан успешно
+2026-02-03 15:08:09,191 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 3354226 обработан успешно
+2026-02-03 15:08:09,231 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 909079 обработан успешно
+2026-02-03 15:08:09,295 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 107937 обработан успешно
+2026-02-03 15:08:09,378 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 106890 обработан успешно
+2026-02-03 15:08:11,048 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:11,120 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:11,127 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:11,130 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:11,134 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:11,142 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 521960 обработан успешно
+2026-02-03 15:08:11,169 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 280062 обработан успешно
+2026-02-03 15:08:11,176 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 1048062 обработан успешно
+2026-02-03 15:08:11,180 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 2621564 обработан успешно
+2026-02-03 15:08:11,187 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 1845406 обработан успешно
+2026-02-03 15:08:12,810 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:12,859 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:12,879 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:12,883 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 99333 обработан успешно
+2026-02-03 15:08:12,895 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:12,899 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:12,911 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 799050 обработан успешно
+2026-02-03 15:08:12,928 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 3350421 обработан успешно
+2026-02-03 15:08:12,930 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 3565540 обработан успешно
+2026-02-03 15:08:12,934 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 1358070 обработан успешно
+2026-02-03 15:08:14,615 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:14,617 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:14,621 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:14,631 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:14,632 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:14,657 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 3054840 обработан успешно
+2026-02-03 15:08:14,660 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 1230498 обработан успешно
+2026-02-03 15:08:14,665 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 373164 обработан успешно
+2026-02-03 15:08:14,670 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 1279464 обработан успешно
+2026-02-03 15:08:14,673 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 399617 обработан успешно
+2026-02-03 15:08:16,327 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:16,340 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:16,342 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:16,347 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:16,351 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:16,376 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 659312 обработан успешно
+2026-02-03 15:08:16,382 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 1098915 обработан успешно
+2026-02-03 15:08:16,385 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 1221040 обработан успешно
+2026-02-03 15:08:16,391 - src.parsers.seller_parser - INFO - Воркер 2: Продавец 2267965 обработан успешно
+2026-02-03 15:08:16,395 - src.parsers.seller_parser - INFO - Воркер 3: Продавец 2792433 обработан успешно
+2026-02-03 15:08:18,039 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:18,040 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:18,044 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:18,066 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 462960 обработан успешно
+2026-02-03 15:08:18,070 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 19313 обработан успешно
+2026-02-03 15:08:18,072 - src.parsers.seller_parser - INFO - Воркер 1: Продавец 2911 обработан успешно
+2026-02-03 15:08:19,677 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:19,694 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:19,716 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 3201 обработан успешно
+2026-02-03 15:08:19,726 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 6579 обработан успешно
+2026-02-03 15:08:20,493 - src.parsers.seller_parser - INFO - Воркер продавцов 3 закрыт
+2026-02-03 15:08:20,494 - src.parsers.seller_parser - INFO - Воркер продавцов 2 закрыт
+2026-02-03 15:08:20,495 - src.parsers.seller_parser - INFO - Воркер продавцов 3 завершил работу с 23 продавцами
+2026-02-03 15:08:20,495 - src.parsers.seller_parser - INFO - Воркер продавцов 2 завершил работу с 23 продавцами
+2026-02-03 15:08:21,306 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:21,325 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:21,335 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 693381 обработан успешно
+2026-02-03 15:08:21,353 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 1475393 обработан успешно
+2026-02-03 15:08:21,943 - src.parsers.seller_parser - INFO - Воркер продавцов 1 закрыт
+2026-02-03 15:08:21,944 - src.parsers.seller_parser - INFO - Воркер продавцов 1 завершил работу с 23 продавцами
+2026-02-03 15:08:22,973 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:22,974 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:23,003 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 1469456 обработан успешно
+2026-02-03 15:08:23,006 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 1804238 обработан успешно
+2026-02-03 15:08:24,605 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:24,607 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:24,628 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 3221976 обработан успешно
+2026-02-03 15:08:24,630 - src.parsers.seller_parser - INFO - Воркер 4: Продавец 2297852 обработан успешно
+2026-02-03 15:08:26,227 - src.utils.selenium_manager - INFO - Антибот защита пройдена
+2026-02-03 15:08:26,251 - src.parsers.seller_parser - INFO - Воркер 5: Продавец 1588402 обработан успешно
+2026-02-03 15:08:28,484 - src.parsers.seller_parser - INFO - Воркер продавцов 4 закрыт
+2026-02-03 15:08:28,485 - src.parsers.seller_parser - INFO - Воркер продавцов 4 завершил работу с 23 продавцами
+2026-02-03 15:08:30,083 - src.parsers.seller_parser - INFO - Воркер продавцов 5 закрыт
+2026-02-03 15:08:30,084 - src.parsers.seller_parser - INFO - Воркер продавцов 5 завершил работу с 23 продавцами
+2026-02-03 15:08:30,085 - src.core.app_manager - INFO - ✓ Парсинг селлеров завершен. Получено: 115, успешных: 115
+2026-02-03 15:08:30,088 - src.parsers.seller_parser - INFO - Очистка ресурсов парсера продавцов...
+2026-02-03 15:08:32,095 - src.parsers.seller_parser - INFO - Ресурсы парсера продавцов очищены
+2026-02-03 15:08:32,099 - src.core.app_manager - INFO - Фильтр по заказам: min=0, max=500000, было=115, стало=105
+2026-02-03 15:08:32,316 - src.utils.excel_exporter - INFO - Excel файл сохранен: c:\Users\grish\ozon-parser\output\parfyumernaya_voda_03.02.2026_14-56-13\category_parfyumernaya_voda_03.02.2026_14-56-13.xlsx
+2026-02-03 15:08:32,318 - src.utils.config_loader - INFO - Поиск config.txt по пути: c:\Users\grish\ozon-parser\config.txt
+2026-02-03 15:08:43,740 - src.utils.config_loader - INFO - Поиск config.txt по пути: c:\Users\grish\ozon-parser\config.txt
+2026-02-03 15:08:44,672 - src.utils.resource_manager - INFO - Завершена сессия пользователя 1134933168
+2026-02-03 15:08:44,673 - src.core.app_manager - INFO - Пользователь 1134933168 завершил парсинг
+2026-02-03 15:08:44,673 - src.core.app_manager - INFO - Все пользователи завершили парсинг
+2026-02-03 18:09:15,385 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-03 18:09:15,961 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8237779338)
+2026-02-03 18:09:17,060 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2026-02-03 18:09:17,081 - aiogram.dispatcher - WARNING - Sleep for 1.149603 seconds and try again... (tryings = 1, bot id = 8237779338)
+2026-02-03 18:09:29,197 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8237779338)

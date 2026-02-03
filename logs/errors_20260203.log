@@ -1,0 +1,2 @@
+2026-02-03 18:09:15,385 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-02-03 18:09:17,060 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]

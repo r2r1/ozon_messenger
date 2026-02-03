@@ -1,0 +1,281 @@
+2026-01-30 23:19:40,014 - src.telegram.bot_manager - ERROR - Ошибка отправки уведомления о запуске: Telegram server says - Bad Request: chat not found
+2026-01-30 23:20:40,010 - src.telegram.bot_manager - ERROR - Ошибка остановки Telegram бота: 'Dispatcher' object has no attribute '_loop'
+2026-01-30 23:21:21,740 - src.telegram.bot_manager - ERROR - Ошибка отправки уведомления о запуске: Telegram server says - Bad Request: chat not found
+2026-01-30 23:21:42,040 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:21:43,098 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:21:44,378 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:21:46,076 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:21:48,379 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:21:51,277 - src.telegram.bot_manager - ERROR - Ошибка остановки Telegram бота: 'Dispatcher' object has no attribute '_loop'
+2026-01-30 23:25:05,806 - src.telegram.bot_manager - ERROR - Ошибка отправки уведомления о запуске: Telegram server says - Bad Request: chat not found
+2026-01-30 23:27:46,685 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:27:47,801 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:27:49,166 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:27:50,927 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:27:53,091 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:27:55,776 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:27:59,220 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:28:03,716 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:28:11,483 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:28:13,861 - src.telegram.bot_manager - ERROR - Ошибка остановки Telegram бота: 'Dispatcher' object has no attribute '_loop'
+2026-01-30 23:28:18,929 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:28:24,059 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:28:29,086 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:28:34,113 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:28:39,724 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:28:44,766 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:28:49,954 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:28:56,716 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:02,222 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:07,082 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:12,332 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:19,368 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:24,395 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:29,635 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:34,843 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:40,016 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:45,555 - src.telegram.bot_manager - ERROR - Ошибка отправки уведомления о запуске: Telegram server says - Bad Request: chat not found
+2026-01-30 23:29:45,919 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:51,005 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:29:56,107 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:00,979 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:05,809 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:10,983 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:16,031 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:21,071 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:26,145 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:31,195 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:36,045 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:41,180 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:46,156 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:51,579 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:30:56,645 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:01,754 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:06,924 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:11,875 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:17,072 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:21,952 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:23,576 - aiogram.event - ERROR - Cause exception while process update id=355303119 by bot id=8237779338
+NameError: name 'message' is not defined
+Traceback (most recent call last):
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\grish\ozon-parser\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "c:\Users\grish\ozon-parser\src\telegram\bot_manager.py", line 506, in _handle_message
+    await self._show_help(message)
+  File "c:\Users\grish\ozon-parser\src\telegram\bot_manager.py", line 299, in _show_help
+    await message.reply(help_text, reply_markup=keyboard, parse_mode="HTML")
+          ^^^^^^^
+NameError: name 'message' is not defined. Did you mean: 'Message'?
+2026-01-30 23:31:26,783 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:31,829 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:36,716 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:41,770 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:47,020 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:52,222 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:31:57,378 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:02,400 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:07,514 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:12,550 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:17,700 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:22,840 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:27,738 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:32,778 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:37,856 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:42,953 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:48,257 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:53,303 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:32:58,937 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:04,087 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:09,283 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:15,508 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:20,454 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:25,571 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:30,573 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:35,737 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:40,614 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:45,800 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:51,010 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:33:55,951 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:01,150 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:06,216 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:11,164 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:16,154 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:21,166 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:26,309 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:31,815 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:36,893 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:42,084 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:47,228 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:52,367 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:34:57,553 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:02,662 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:08,007 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:12,855 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:17,847 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:22,821 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:28,084 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:33,214 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:38,427 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:43,716 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:48,790 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:53,904 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:35:59,155 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:04,004 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:08,922 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:14,132 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:19,059 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:24,419 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:29,363 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:34,633 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:40,036 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:45,213 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:50,201 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:36:55,393 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:00,506 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:05,608 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:10,630 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:15,735 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:20,745 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:25,805 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:30,949 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:35,940 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:41,078 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:46,052 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:51,090 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:37:56,100 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:01,093 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:06,008 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:10,964 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:16,096 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:21,090 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:26,134 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:31,372 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:36,391 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:41,421 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:46,406 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:51,676 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:38:56,863 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:02,306 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:07,399 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:12,422 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:18,278 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:24,033 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:33,733 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:38,825 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:44,276 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:49,257 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:54,673 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:39:59,894 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:05,332 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:10,856 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:15,936 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:21,283 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:26,463 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:31,598 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:36,518 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:41,583 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:46,621 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:51,597 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:40:56,619 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:01,708 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:07,063 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:13,275 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:18,303 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:23,358 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:28,458 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:33,492 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:38,411 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:43,606 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:48,997 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:54,176 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:41:59,340 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:04,502 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:09,462 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:15,119 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:20,369 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:25,407 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:30,745 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:35,896 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:40,979 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:46,291 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:51,434 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:42:56,490 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:01,663 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:06,670 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:11,688 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:17,044 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:22,049 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:27,215 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:32,341 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:37,266 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:42,492 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:47,590 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:52,777 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:43:57,846 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:03,007 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:08,287 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:13,472 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:18,734 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:24,246 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:29,258 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:34,384 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:39,551 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:44,574 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:49,554 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:54,517 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:44:59,288 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:04,508 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:09,727 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:14,852 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:20,440 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:25,566 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:30,584 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:35,747 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:40,724 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:45,786 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:50,895 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:45:56,107 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-01-30 23:46:02,228 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized

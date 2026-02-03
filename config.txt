@@ -1,0 +1,7 @@
+TELEGRAM_BOT_TOKEN=8237779338:AAGF81XDvQAGi7WABCgoEe5NXAFoGx9KobY
+TELEGRAM_CHAT_ID=1134933168
+USER_1134933168_SELECTED_FIELDS=name,company_name,product_url,orders_count,reviews_count,seller_name,seller_id,seller_link
+USER_1134933168_FIELD_ORDER=name,company_name,product_url,orders_count,reviews_count,seller_name,seller_id,seller_link
+USER_1134933168_DEFAULT_COUNT=500
+USER_1134933168_MIN_ORDERS=0
+USER_1134933168_MAX_ORDERS=500000

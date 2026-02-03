@@ -1,0 +1,8 @@
+selenium
+selenium-stealth
+requests
+beautifulsoup4
+lxml
+openpyxl
+aiogram
+pyinstaller

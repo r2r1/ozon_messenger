@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Ozon Seller Messenger",
+  "version": "1.0",
+  "description": "Открывает страницы продавцов Ozon и отправляет приветственное сообщение в чат",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://ozon.ru/*", "https://www.ozon.ru/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Ozon Seller Messenger"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ozon.ru/seller/*",
+        "https://www.ozon.ru/seller/*",
+        "https://ozon.ru/my/chat/*",
+        "https://www.ozon.ru/my/chat/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
