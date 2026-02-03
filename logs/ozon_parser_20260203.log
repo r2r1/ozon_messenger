@@ -1441,3 +1441,25 @@
 2026-02-03 18:09:17,060 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
 2026-02-03 18:09:17,081 - aiogram.dispatcher - WARNING - Sleep for 1.149603 seconds and try again... (tryings = 1, bot id = 8237779338)
 2026-02-03 18:09:29,197 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 8237779338)
+2026-02-03 20:30:04,523 - root - INFO - Логирование настроено успешно
+2026-02-03 20:30:04,524 - __main__ - INFO - Запуск Telegram Bot Manager GUI
+2026-02-03 20:30:04,524 - src.gui.main_window - INFO - GUI инициализирован
+2026-02-03 20:30:05,556 - src.gui.main_window - INFO - GUI запущен
+2026-02-03 20:31:54,677 - src.gui.tabs.config_tab - INFO - Сохранение конфигурации в: C:\Users\choow\Documents\GitHub\ozon_messenger\config.txt
+2026-02-03 20:31:56,213 - src.gui.tabs.config_tab - INFO - Настройки сохранены в C:\Users\choow\Documents\GitHub\ozon_messenger\config.txt
+2026-02-03 20:32:31,736 - src.gui.tabs.config_tab - INFO - Сохранение конфигурации в: C:\Users\choow\Documents\GitHub\ozon_messenger\config.txt
+2026-02-03 20:32:33,172 - src.gui.tabs.config_tab - INFO - Настройки сохранены в C:\Users\choow\Documents\GitHub\ozon_messenger\config.txt
+2026-02-03 20:32:54,591 - src.gui.tabs.config_tab - INFO - Сохранение конфигурации в: C:\Users\choow\Documents\GitHub\ozon_messenger\config.txt
+2026-02-03 20:32:55,818 - src.gui.tabs.config_tab - INFO - Настройки сохранены в C:\Users\choow\Documents\GitHub\ozon_messenger\config.txt
+2026-02-03 20:33:23,752 - src.gui.main_window - INFO - Закрытие приложения...
+2026-02-03 20:33:23,752 - src.core.app_manager - INFO - Остановлен парсинг для всех пользователей
+2026-02-03 20:33:59,124 - root - INFO - Логирование настроено успешно
+2026-02-03 20:33:59,125 - __main__ - INFO - Запуск Telegram Bot Manager GUI
+2026-02-03 20:33:59,125 - src.gui.main_window - INFO - GUI инициализирован
+2026-02-03 20:33:59,555 - src.gui.main_window - INFO - GUI запущен
+2026-02-03 20:34:28,291 - src.gui.tabs.config_tab - INFO - Сохранение конфигурации в: C:\Users\choow\Documents\GitHub\ozon_messenger\config.txt
+2026-02-03 20:34:33,688 - src.gui.tabs.config_tab - INFO - Настройки сохранены в C:\Users\choow\Documents\GitHub\ozon_messenger\config.txt
+2026-02-03 20:34:40,231 - src.gui.tabs.config_tab - INFO - Сохранение конфигурации в: C:\Users\choow\Documents\GitHub\ozon_messenger\config.txt
+2026-02-03 20:34:41,498 - src.gui.tabs.config_tab - INFO - Настройки сохранены в C:\Users\choow\Documents\GitHub\ozon_messenger\config.txt
+2026-02-03 20:35:52,312 - src.gui.main_window - INFO - Закрытие приложения...
+2026-02-03 20:35:52,313 - src.core.app_manager - INFO - Остановлен парсинг для всех пользователей
