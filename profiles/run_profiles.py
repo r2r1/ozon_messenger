@@ -110,12 +110,8 @@ if __name__ == "__main__":
         driver = None
         try:
             debugger_address = gl.start()
-<<<<<<< HEAD
             print(f"[OK] Браузер запущен")
             time.sleep(2)
-=======
-            print(f"[OK] Браузер запущен" )
->>>>>>> 6912d430ca8cbfa3a7b10474bcdb2e355d8c11a8
 
             driver = create_driver_for_debugger(debugger_address)
             print(f"[OK] Selenium подключен")
