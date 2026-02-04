@@ -1,0 +1,24 @@
+# server.py
+import http.server
+import socketserver
+import os
+
+PORT = 8080
+DIRECTORY = "."  # Текущая директория
+
+class Handler(http.server.SimpleHTTPRequestHandler):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, directory=DIRECTORY, **kwargs)
+
+    def end_headers(self):
+        # Добавляем CORS-заголовки, чтобы браузерное расширение могло читать данные
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'GET')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        super().end_headers()
+
+if __name__ == "__main__":
+    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        print(f"Сервер запущен на http://localhost:{PORT}")
+        print(f"Ваш JSON будет доступен по адресу: http://localhost:{PORT}/category_tarelki_02.02.2026_21-35-51.json")
+        httpd.serve_forever()
