@@ -71,6 +71,7 @@ if __name__ == "__main__":
             # Запуск браузера
             debugger_address = gl.start()
             print(f"[OK] Браузер запущен")
+            time.sleep(2)  # даём браузеру и отладчику полностью подняться
 
             # Настройка Selenium (версия драйвера должна совпадать с Chrome в GoLogin)
             service = Service(ChromeDriverManager(CHROMEDRIVER_VERSION).install())
@@ -78,6 +79,8 @@ if __name__ == "__main__":
             chrome_options.add_experimental_option("debuggerAddress", debugger_address)
 
             driver = webdriver.Chrome(service=service, options=chrome_options)
+            driver.set_page_load_timeout(30)
+            driver.set_script_timeout(30)
             print(f"[OK] Selenium подключен")
 
             # Открываем страницу расширений

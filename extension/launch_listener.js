@@ -64,17 +64,28 @@
       openInNewTab: true
     };
 
-    await new Promise((resolve) => {
-      chrome.storage.local.set({ [STORAGE_KEY]: config }, resolve);
-    });
-
-    setStatus('Запуск рассылки: ' + shopSlugs.length + ' продавцов. Открываю первого…', false);
-    const firstUrl = 'https://ozon.ru/seller/' + shopSlugs[0] + '/';
-    chrome.tabs.create({ url: firstUrl });
-
-    setTimeout(() => {
-      setStatus('Рассылка запущена. Вкладку можно закрыть.', false);
-    }, 1500);
+    setStatus('Передача данных в расширение: ' + shopSlugs.length + ' продавцов…', false);
+    try {
+      chrome.runtime.sendMessage(
+        {
+          action: 'startFromLaunch',
+          config: {
+            shopSlugs: config.shopSlugs,
+            messages: config.messages,
+            openInNewTab: config.openInNewTab
+          }
+        },
+        (response) => {
+          if (chrome.runtime.lastError) {
+            setStatus('Ошибка: ' + chrome.runtime.lastError.message, true);
+            return;
+          }
+          setStatus('Рассылка запущена. Вкладку можно закрыть.', false);
+        }
+      );
+    } catch (e) {
+      setStatus('Ошибка передачи в расширение: ' + e.message, true);
+    }
   }
 
   run();

@@ -10,6 +10,13 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
 
+    def do_GET(self):
+        if self.path == "/favicon.ico":
+            self.send_response(204)
+            self.end_headers()
+            return
+        super().do_GET()
+
     def end_headers(self):
         # Добавляем CORS-заголовки, чтобы браузерное расширение могло читать данные
         self.send_header('Access-Control-Allow-Origin', '*')
@@ -20,5 +27,5 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 if __name__ == "__main__":
     with socketserver.TCPServer(("", PORT), Handler) as httpd:
         print(f"Сервер запущен на http://localhost:{PORT}")
-        print(f"Ваш JSON будет доступен по адресу: http://localhost:{PORT}/category_tarelki_02.02.2026_21-35-51.json")
+        print(f"Ваш JSON будет доступен по адресу: http://localhost:{PORT}/profiles_with_sellers.json")
         httpd.serve_forever()

@@ -5,11 +5,36 @@ let currentTabId = null;
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   if (msg.action === 'startMessaging') {
     startMessaging(msg.config, sender.tab?.id);
+    sendResponse({});
   } else if (msg.action === 'messageSent') {
     handleNextSeller(sender.tab.id);
+    sendResponse({});
+  } else if (msg.action === 'startFromLaunch') {
+    startFromLaunch(msg.config).then(() => sendResponse({ ok: true })).catch((e) => sendResponse({ error: e.message }));
+    return true; // keep channel open for async sendResponse
   }
   sendResponse({});
 });
+
+/** Запуск рассылки из launch.html: получаем конфиг по profile_id и открываем первого продавца */
+async function startFromLaunch(config) {
+  if (!config || !Array.isArray(config.shopSlugs) || config.shopSlugs.length === 0) {
+    throw new Error('Нет списка продавцов в конфиге');
+  }
+  const state = {
+    shopSlugs: config.shopSlugs,
+    currentIndex: 0,
+    messages: config.messages || [
+      'Здравствуйте! Интересует сотрудничество.',
+      'Мы ищем поставщиков для нашего маркетплейса.',
+      'Готовы обсудить детали?'
+    ],
+    openInNewTab: config.openInNewTab !== false
+  };
+  await chrome.storage.local.set({ ozon_seller_messenger: state });
+  const firstUrl = 'https://ozon.ru/seller/' + config.shopSlugs[0] + '/';
+  await chrome.tabs.create({ url: firstUrl });
+}
 
 async function startMessaging(config, tabId) {
   if (processing) return;
