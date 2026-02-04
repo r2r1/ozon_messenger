@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
   {
     "id": "697ccb36b71a46841e34db57",
     "name": "Google"
@@ -11,6 +12,8 @@
     "id": "697ccb36b71a46841e34db60",
     "name": "Linkedin"
   },
+=======
+>>>>>>> 6912d430ca8cbfa3a7b10474bcdb2e355d8c11a8
   {
     "id": "695e49e53283f244ebcf65f1",
     "name": "josephmoon1911@federalml.ru"
