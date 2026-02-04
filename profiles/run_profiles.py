@@ -8,13 +8,18 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 # --- Настройки ---
-PROFILES_FILE = "profiles/data/profiles.json"          # Путь к списку профилей
+# Перед запуском включите сервер: из папки server выполните python server.py
+# (чтобы launch.html и profiles_with_sellers.json были доступны на localhost:8080)
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROFILES_FILE = os.path.join(_SCRIPT_DIR, "data", "profiles.json")  # Путь к списку профилей
 API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTdjY2IzNmI3MWE0Njg0MWUzNGRhYTciLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2OTdjZDUxMWUzMGE5OWU4NmVlNTM5ZTMifQ.3N3hPO6EsoAk_utpQSMoxJtbiKLGyw3DmTF0jbJLcwk"                      # Твой токен Gologin
-EXTENSION_ID = "kbfaaeambikahofikckfpgfplggifdlh"                # ID расширения, например: "padekgcemlokbadohgkifijomclgjgif"
+EXTENSION_ID = "opcccnnccfmnjaeehjpokgbhpiahceek"                # ID расширения, например: "padekgcemlokbadohgkifijomclgjgif"
 DELAY_BEFORE_ACTION = 5                                # Задержка перед действиями (сек)
 DELAY_AFTER_ENABLE = 3                                 # Задержка после включения расширения (сек)
 PROFILE_DELAY = 15                                     # Время на работу с одним профилем (браузер открыт)
-PAGE_FOR_EXTENSION = "https://www.ozon.ru/"            # Страница, на которой работает расширение
+# Страница-лаунчер: по profile_id расширение подтянет продавцов из server/profiles_with_sellers.json
+SERVER_LAUNCH_URL = "http://localhost:8080/launch.html"
+SERVER_PORT = 8080                                     # Должен совпадать с server/server.py
 # Версия ChromeDriver должна совпадать с версией Chrome в GoLogin (см. ошибку session not created)
 CHROMEDRIVER_VERSION = "141.0.7390.54"                 # Текущий Chrome в GoLogin: 141.0.7390.54
 
@@ -25,34 +30,34 @@ def read_profiles(filepath):
             data = json.load(f)
             return data if isinstance(data, list) else data.get("profiles", [])
     except Exception as e:
-        print(f"❌ Ошибка чтения файла: {e}")
+        print(f"[X] Ошибка чтения файла: {e}")
         return []
 
 if __name__ == "__main__":
     # Проверка токена
     if API_TOKEN == "your_api_token_here":
-        print("❗ Укажи API токен в коде!")
+        print("[!] Укажи API токен в коде!")
         exit(1)
     if EXTENSION_ID == "your_extension_id_here":
-        print("❗ Укажи ID расширения!")
+        print("[!] Укажи ID расширения!")
         exit(1)
 
     profiles = read_profiles(PROFILES_FILE)
     if not profiles:
-        print("❌ Нет профилей для обработки.")
+        print("[X] Нет профилей для обработки.")
         exit(1)
 
-    print(f"📁 Найдено профилей: {len(profiles)}\n")
+    print(f"[*] Найдено профилей: {len(profiles)}\n")
 
     for idx, profile in enumerate(profiles, start=1):
         profile_id = profile.get("id")
         profile_name = profile.get("name", "Без имени")
 
         if not profile_id:
-            print(f"{idx}. ⚠️ Пропущен: нет ID")
+            print(f"{idx}. [!] Пропущен: нет ID")
             continue
 
-        print(f"\n➡️ {idx}. Обработка профиля: {profile_name} (ID: {profile_id})")
+        print(f"\n-> {idx}. Обработка профиля: {profile_name} (ID: {profile_id})")
 
         # Инициализация GoLogin
         gl = GoLogin({
@@ -65,15 +70,15 @@ if __name__ == "__main__":
         try:
             # Запуск браузера
             debugger_address = gl.start()
-            print(f"✅ Браузер запущен")
+            print(f"[OK] Браузер запущен")
 
             # Настройка Selenium (версия драйвера должна совпадать с Chrome в GoLogin)
-            service = Service(ChromeDriverManager(version=CHROMEDRIVER_VERSION).install())
+            service = Service(ChromeDriverManager(CHROMEDRIVER_VERSION).install())
             chrome_options = webdriver.ChromeOptions()
             chrome_options.add_experimental_option("debuggerAddress", debugger_address)
 
             driver = webdriver.Chrome(service=service, options=chrome_options)
-            print(f"🔗 Selenium подключён")
+            print(f"[OK] Selenium подключен")
 
             # Открываем страницу расширений
             driver.get("chrome://extensions/")
@@ -103,41 +108,42 @@ if __name__ == "__main__":
 
             result = driver.execute_script(enable_script)
             if result is False:
-                print(f"❌ Расширение с ID={EXTENSION_ID} не найдено в профиле")
+                print(f"[X] Расширение с ID={EXTENSION_ID} не найдено в профиле")
             else:
-                print(f"✨ Расширение активировано: {EXTENSION_ID}")
+                print(f"[OK] Расширение активировано: {EXTENSION_ID}")
 
             # Задержка после включения расширения
             time.sleep(DELAY_AFTER_ENABLE)
 
-            # Открываем вкладку, на которой работает расширение (Ozon)
-            driver.execute_script("window.open(arguments[0], '_blank');", PAGE_FOR_EXTENSION)
-            time.sleep(2)  # даём вкладке загрузиться
-            # Переключаемся на новую вкладку
+            # Открываем страницу-лаунчер с id профиля: расширение получит id и по нему
+            # возьмёт продавцов из server/profiles_with_sellers.json и запустит рассылку
+            launch_url = f"{SERVER_LAUNCH_URL}?profile_id={profile_id}"
+            driver.execute_script("window.open(arguments[0], '_blank');", launch_url)
+            time.sleep(3)  # даём вкладке загрузиться и расширению обработать profile_id
             driver.switch_to.window(driver.window_handles[-1])
-            print(f"🌐 Открыта страница: {PAGE_FOR_EXTENSION}")
+            print(f"[.] Открыт лаунчер с profile_id={profile_id}")
 
             # Время на работу с профилем (расширение активно, браузер открыт)
-            print(f"⏳ Браузер открыт {PROFILE_DELAY} сек — можно пользоваться расширением...")
+            print(f"[...] Браузер открыт {PROFILE_DELAY} сек - можно пользоваться расширением...")
             time.sleep(PROFILE_DELAY)
 
         except Exception as e:
-            print(f"❌ Ошибка при работе с профилем {profile_name}: {e}")
+            print(f"[X] Ошибка при работе с профилем {profile_name}: {e}")
 
         finally:
             # Закрываем браузер
             if driver:
                 driver.quit()
-                print(f"🛑 Selenium закрыт")
+                print(f"[.] Selenium закрыт")
             try:
                 gl.stop()
-                print(f"⏹️ Профиль остановлен")
+                print(f"[.] Профиль остановлен")
             except:
                 pass
 
             # Задержка перед следующим профилем
             if idx < len(profiles):
-                print(f"⏳ Ожидание {PROFILE_DELAY} сек перед следующим профилем...")
+                print(f"[...] Ожидание {PROFILE_DELAY} сек перед следующим профилем...")
                 time.sleep(PROFILE_DELAY)
 
-    print("🎉 Все профили обработаны: расширения включены!")
+    print("[OK] Все профили обработаны: расширения включены!")
