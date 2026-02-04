@@ -7,9 +7,12 @@
   const PROFILES_SELLERS_URL = 'http://localhost:8080/profiles_with_sellers.json';
   const STORAGE_KEY = 'ozon_seller_messenger';
   const DEFAULT_MESSAGES = [
-    'Здравствуйте! Интересует сотрудничество.',
-    'Мы ищем поставщиков для нашего маркетплейса.',
-    'Готовы обсудить детали?'
+    'Здравствуйте! Продaю кaрточки для склейки — с их помощью можно добaвить 1 000, 2 000 и даже 10 000 отзывов к вашей текущей или новой карточке',
+    'Цена — 75 рублей за один отзыв. То есть, покупая 1 000 отзывов, вы оплачиваете 75 000 рублей, а получаете актив, который приносит от миллиона чистыми в месяц',
+    'Оплата отзывов после, заранее ничего платить не нужно! \n\
+        Связаться со мной можно в \n\
+        тг: dousmyd  \n\
+        (проведем видео-конференцию при необходимости)'
   ];
 
   function setStatus(text, isError) {
@@ -35,7 +38,11 @@
         ? data.find((r) => (r.id || '').toString().trim() === profileId)
         : null;
       if (!row || !Array.isArray(row.sellers)) return null;
-      return row.sellers.map((s) => String(s.seller_id || '').trim()).filter(Boolean);
+      // Только первые 5 продавцов по профилю — после них рассылка останавливается
+      return row.sellers
+        .map((s) => String(s.seller_id || '').trim())
+        .filter(Boolean)
+        .slice(0, 5);
     } catch (err) {
       console.error('[Launch] Ошибка загрузки profiles_with_sellers.json:', err);
       return null;

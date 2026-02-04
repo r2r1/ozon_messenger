@@ -1,5 +1,6 @@
 selenium
 selenium-stealth
+pyautogui
 requests
 beautifulsoup4
 lxml
