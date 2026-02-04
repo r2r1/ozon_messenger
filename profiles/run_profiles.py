@@ -1,89 +1,128 @@
-import json
+
 import time
+import json
 import os
 from gologin import GoLogin
-from urllib.parse import quote
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 # --- Настройки ---
-PROFILES_FILE = "profiles/data/profiles.json"
-DELAY_BETWEEN_PROFILES = 10  # Время открытия одного профиля (сек)
-API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTdjY2IzNmI3MWE0Njg0MWUzNGRhYTciLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2OTdjZDUxMWUzMGE5OWU4NmVlNTM5ZTMifQ.3N3hPO6EsoAk_utpQSMoxJtbiKLGyw3DmTF0jbJLcwk"  # ← Замени на свой токен из https://app.gologin.com/#/settings
+PROFILES_FILE = "profiles/data/profiles.json"          # Путь к списку профилей
+API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTdjY2IzNmI3MWE0Njg0MWUzNGRhYTciLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2OTdjZDUxMWUzMGE5OWU4NmVlNTM5ZTMifQ.3N3hPO6EsoAk_utpQSMoxJtbiKLGyw3DmTF0jbJLcwk"                      # Твой токен Gologin
+EXTENSION_ID = "kbfaaeambikahofikckfpgfplggifdlh"                # ID расширения, например: "padekgcemlokbadohgkifijomclgjgif"
+DELAY_BEFORE_ACTION = 5                                # Задержка перед действиями (сек)
+PROFILE_DELAY = 15                                     # Время на запуск/работу с одним профилем
 
-def read_profiles_from_json(filepath):
-    """Читает profiles.json и возвращает список профилей"""
+def read_profiles(filepath):
+    """Читает список профилей из JSON"""
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             data = json.load(f)
-            if isinstance(data, list):
-                return data
-            elif isinstance(data, dict):
-                return data.get("profiles", [])
-            else:
-                print("❌ Неверный формат файла profiles.json")
-                return []
-    except FileNotFoundError:
-        print(f"❌ Файл не найден: {filepath}")
-        return []
-    except json.JSONDecodeError as e:
-        print(f"❌ Ошибка чтения JSON: {e}")
+            return data if isinstance(data, list) else data.get("profiles", [])
+    except Exception as e:
+        print(f"❌ Ошибка чтения файла: {e}")
         return []
 
 if __name__ == "__main__":
-    # Проверяем токен
+    # Проверка токена
     if API_TOKEN == "your_api_token_here":
-        print("❗ Укажи свой API токен Gologin в коде!")
+        print("❗ Укажи API токен в коде!")
+        exit(1)
+    if EXTENSION_ID == "your_extension_id_here":
+        print("❗ Укажи ID расширения!")
         exit(1)
 
-    # Читаем профили
-    profiles = read_profiles_from_json(PROFILES_FILE)
+    profiles = read_profiles(PROFILES_FILE)
     if not profiles:
-        print("❌ Нет профилей для запуска.")
+        print("❌ Нет профилей для обработки.")
         exit(1)
 
-    print(f"📁 Найдено профилей: {len(profiles)}")
+    print(f"📁 Найдено профилей: {len(profiles)}\n")
 
     for idx, profile in enumerate(profiles, start=1):
-        profile_name = profile.get("name")
         profile_id = profile.get("id")
+        profile_name = profile.get("name", "Без имени")
 
         if not profile_id:
             print(f"{idx}. ⚠️ Пропущен: нет ID")
             continue
 
-        if not profile_name:
-            print(f"{idx}. ⚠️ Пропущен: нет имени")
-            continue
+        print(f"\n➡️ {idx}. Обработка профиля: {profile_name} (ID: {profile_id})")
 
-        print(f"\n➡️ {idx}. Запуск профиля: {profile_name} (ID: {profile_id})")
-
-        # Инициализируем GoLogin
+        # Инициализация GoLogin
         gl = GoLogin({
             "token": API_TOKEN,
             "profile_id": profile_id,
             "skip_proxy_check": True,
         })
 
+        driver = None
         try:
-            # Запускаем браузер
+            # Запуск браузера
             debugger_address = gl.start()
-            print(f"✅ Браузер запущен: {profile_name}")
+            print(f"✅ Браузер запущен")
 
-            # Ждём 10 секунд
-            time.sleep(DELAY_BETWEEN_PROFILES)
+            # Настройка Selenium
+            service = Service(ChromeDriverManager().install())
+            chrome_options = webdriver.ChromeOptions()
+            chrome_options.add_experimental_option("debuggerAddress", debugger_address)
 
-            # Останавливаем браузер
-            gl.stop()
-            print(f"🛑 Браузер остановлен: {profile_name}")
+            driver = webdriver.Chrome(service=service, options=chrome_options)
+            print(f"🔗 Selenium подключён")
+
+            # Открываем страницу расширений
+            driver.get("chrome://extensions/")
+            time.sleep(DELAY_BEFORE_ACTION)
+
+            # Активируем расширение через JavaScript
+            enable_script = """
+            const extensions = document.querySelector('extensions-manager')
+                .shadowRoot.querySelector('#items-list')
+                .querySelectorAll('extensions-item');
+
+            for (let ext of extensions) {
+                if (ext.getAttribute('id') === '%s') {
+                    const toggle = ext.shadowRoot.querySelector('#enabled');
+                    if (!toggle.checked) {
+                        toggle.click();  // Включаем
+                        console.log('✅ Расширение включено:', '%s');
+                    } else {
+                        console.log('🟢 Расширение уже активно:', '%s');
+                    }
+                    return true;
+                }
+            }
+            console.log('🔴 Расширение не найдено:', '%s');
+            return false;
+            """ % (EXTENSION_ID, EXTENSION_ID, EXTENSION_ID, EXTENSION_ID)
+
+            result = driver.execute_script(enable_script)
+            if result is False:
+                print(f"❌ Расширение с ID={EXTENSION_ID} не найдено в профиле")
+            else:
+                print(f"✨ Расширение активировано: {EXTENSION_ID}")
+
+            # Ждём немного перед закрытием
+            time.sleep(3)
 
         except Exception as e:
             print(f"❌ Ошибка при работе с профилем {profile_name}: {e}")
+
+        finally:
+            # Закрываем браузер
+            if driver:
+                driver.quit()
+                print(f"🛑 Selenium закрыт")
             try:
-                gl.stop()  # Попробуем остановить, если завис
+                gl.stop()
+                print(f"⏹️ Профиль остановлен")
             except:
                 pass
 
-        # Пауза перед следующим профилем (не обязательна, но можно добавить)
-        if idx < len(profiles):
-            print(f"⏳ Ожидание перед следующим профилем...")
+            # Задержка перед следующим профилем
+            if idx < len(profiles):
+                print(f"⏳ Ожидание {PROFILE_DELAY} сек перед следующим профилем...")
+                time.sleep(PROFILE_DELAY)
 
-    print("🎉 Все профили были запущены и закрыты по очереди!")
+    print("🎉 Все профили обработаны: расширения включены!")
