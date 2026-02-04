@@ -15,6 +15,8 @@ DELAY_BEFORE_ACTION = 5                                # Задержка пер
 DELAY_AFTER_ENABLE = 3                                 # Задержка после включения расширения (сек)
 PROFILE_DELAY = 15                                     # Время на работу с одним профилем (браузер открыт)
 PAGE_FOR_EXTENSION = "https://www.ozon.ru/"            # Страница, на которой работает расширение
+# Версия ChromeDriver должна совпадать с версией Chrome в GoLogin (см. ошибку session not created)
+CHROMEDRIVER_VERSION = "141.0.7390.54"                 # Текущий Chrome в GoLogin: 141.0.7390.54
 
 def read_profiles(filepath):
     """Читает список профилей из JSON"""
@@ -65,8 +67,8 @@ if __name__ == "__main__":
             debugger_address = gl.start()
             print(f"✅ Браузер запущен")
 
-            # Настройка Selenium
-            service = Service(ChromeDriverManager().install())
+            # Настройка Selenium (версия драйвера должна совпадать с Chrome в GoLogin)
+            service = Service(ChromeDriverManager(version=CHROMEDRIVER_VERSION).install())
             chrome_options = webdriver.ChromeOptions()
             chrome_options.add_experimental_option("debuggerAddress", debugger_address)
 
