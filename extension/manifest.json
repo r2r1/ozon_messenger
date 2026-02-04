@@ -3,7 +3,7 @@
   "name": "Ozon Seller Messenger",
   "version": "1.0",
   "description": "Открывает страницы продавцов Ozon и отправляет приветственное сообщение в чат",
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage", "tabs", "http://localhost/*"],
   "host_permissions": ["https://ozon.ru/*", "https://www.ozon.ru/*"],
   "background": {
     "service_worker": "background.js"

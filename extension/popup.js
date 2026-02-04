@@ -19,6 +19,37 @@
       .replace(/^-+|-+$/g, '');
   }
 
+  const PROFILES_SELLERS_URL = 'http://localhost:8080/profiles_with_sellers.json';
+
+  /**
+   * Загружает из JSON только seller_id, seller_name, seller_link для продавцов,
+   * соответствующих заданному id профиля.
+   * @param {string} profileId - id профиля (из profiles.json)
+   * @returns {Promise<Array|null>} массив до 5 объектов { seller_id, seller_name, seller_link } или null
+   */
+  async function loadSellers(profileId) {
+    const id = (profileId !== undefined && profileId !== null) ? String(profileId).trim() : '';
+    if (!id) return null;
+
+    try {
+      const response = await fetch(PROFILES_SELLERS_URL);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+
+      const row = data.find((r) => (r.id || '').toString().trim() === id);
+      if (!row || !Array.isArray(row.sellers)) return null;
+
+      return row.sellers.map((s) => ({
+        seller_id: (s.seller_id || '').trim(),
+        seller_name: (s.seller_name || '').trim(),
+        seller_link: (s.seller_link || '').trim()
+      }));
+    } catch (err) {
+      console.error('Ошибка загрузки JSON:', err);
+      return null;
+    }
+  }
+
   // Собирает slug'и из пар название + ID
   function getShopSlugs() {
     const slugs = [];
