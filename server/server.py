@@ -10,13 +10,6 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=DIRECTORY, **kwargs)
 
-    def do_GET(self):
-        if self.path == "/favicon.ico":
-            self.send_response(204)
-            self.end_headers()
-            return
-        super().do_GET()
-
     def end_headers(self):
         # Добавляем CORS-заголовки, чтобы браузерное расширение могло читать данные
         self.send_header('Access-Control-Allow-Origin', '*')

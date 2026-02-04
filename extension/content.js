@@ -279,7 +279,7 @@ async function run() {
   ];
 
   // 1. Ждём загрузки страницы
-  await sleep(randomDelay(1500, 2500));
+  await sleep(randomDelay(2000, 3500));
 
   // 🔒 Проверяем, недоступен ли чат
   if (isMessagingBlocked()) {
@@ -320,7 +320,7 @@ async function run() {
     console.log('[Content] ✅ Нажали кнопку "Написать"');
   }
   // 3. Ждём появления поля чата
-  await sleep(randomDelay(1500, 2500));
+  await sleep(randomDelay(2000, 3500));
   const inputEl = await waitForChatInput(15000);
   if (!inputEl) {
     console.error('[Content] ❌ Поле ввода чата не найдено — пропускаем продавца');
@@ -355,7 +355,7 @@ async function run() {
     const message = messages[i];
     setInputValue(inputEl, message);
     console.log(`[Content] ✅ Ввели сообщение ${i + 1}/${messages.length}:`, message);
-    await sleep(randomDelay(1000, 1500));
+    await sleep(randomDelay(1500, 2500));
     const sent = sendMessage(inputEl);
     if (!sent) {
       console.error(`[Content] ❌ Не удалось отправить сообщение ${i + 1}`);
@@ -363,25 +363,25 @@ async function run() {
     }
     console.log(`[Content] ✅ Отправлено сообщение ${i + 1}/${messages.length}`);
     if (i < messages.length - 1) {
-      await sleep(randomDelay(2000, 3000));
+      await sleep(randomDelay(3000, 5000));
     }
   }
 
   // 5. Ждём и нажимаем "Всё равно отправить"
   console.log('[Content] ⏳ Ждём появления кнопки "Всё равно отправить"...');
-  await sleep(randomDelay(1000, 2000));
+  await sleep(randomDelay(1500, 2500));
   const sendAnywayBtn = await waitForSendAnywayButton(5000);
   if (sendAnywayBtn) {
     console.log('[Content] ✅ Нашли кнопку "Всё равно отправить"');
     sendAnywayBtn.click();
     console.log('[Content] ✅ Нажали кнопку "Всё равно отправить"');
-    await sleep(randomDelay(1000, 2000));
+    await sleep(randomDelay(1500, 2500));
   } else {
     console.log('[Content] ℹ️ Кнопка "Всё равно отправить" не появилась');
   }
 
   // 6. Финальная пауза
-  await sleep(randomDelay(2000, 3000));
+  await sleep(randomDelay(3000, 4500));
 
   // ✅ Помечаем как обработанного
   const updatedSentSlugs = [...new Set([...sentSlugs, slugFromConfig])];
