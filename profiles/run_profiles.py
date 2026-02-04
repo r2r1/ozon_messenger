@@ -203,7 +203,7 @@ if __name__ == "__main__":
         try:
             # Запуск браузера
             debugger_address = gl.start()
-            print(f"[OK] Браузер запущен")
+            print(f"[OK] Браузер запущен" )
 
             # Настройка Selenium (версия драйвера должна совпадать с Chrome в GoLogin)
             service = Service(ChromeDriverManager(CHROMEDRIVER_VERSION).install())
