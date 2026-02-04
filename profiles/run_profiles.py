@@ -12,7 +12,9 @@ PROFILES_FILE = "profiles/data/profiles.json"          # Путь к списк�
 API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTdjY2IzNmI3MWE0Njg0MWUzNGRhYTciLCJ0eXBlIjoiZGV2Iiwiand0aWQiOiI2OTdjZDUxMWUzMGE5OWU4NmVlNTM5ZTMifQ.3N3hPO6EsoAk_utpQSMoxJtbiKLGyw3DmTF0jbJLcwk"                      # Твой токен Gologin
 EXTENSION_ID = "kbfaaeambikahofikckfpgfplggifdlh"                # ID расширения, например: "padekgcemlokbadohgkifijomclgjgif"
 DELAY_BEFORE_ACTION = 5                                # Задержка перед действиями (сек)
-PROFILE_DELAY = 15                                     # Время на запуск/работу с одним профилем
+DELAY_AFTER_ENABLE = 3                                 # Задержка после включения расширения (сек)
+PROFILE_DELAY = 15                                     # Время на работу с одним профилем (браузер открыт)
+PAGE_FOR_EXTENSION = "https://www.ozon.ru/"            # Страница, на которой работает расширение
 
 def read_profiles(filepath):
     """Читает список профилей из JSON"""
@@ -103,8 +105,19 @@ if __name__ == "__main__":
             else:
                 print(f"✨ Расширение активировано: {EXTENSION_ID}")
 
-            # Ждём немного перед закрытием
-            time.sleep(3)
+            # Задержка после включения расширения
+            time.sleep(DELAY_AFTER_ENABLE)
+
+            # Открываем вкладку, на которой работает расширение (Ozon)
+            driver.execute_script("window.open(arguments[0], '_blank');", PAGE_FOR_EXTENSION)
+            time.sleep(2)  # даём вкладке загрузиться
+            # Переключаемся на новую вкладку
+            driver.switch_to.window(driver.window_handles[-1])
+            print(f"🌐 Открыта страница: {PAGE_FOR_EXTENSION}")
+
+            # Время на работу с профилем (расширение активно, браузер открыт)
+            print(f"⏳ Браузер открыт {PROFILE_DELAY} сек — можно пользоваться расширением...")
+            time.sleep(PROFILE_DELAY)
 
         except Exception as e:
             print(f"❌ Ошибка при работе с профилем {profile_name}: {e}")
